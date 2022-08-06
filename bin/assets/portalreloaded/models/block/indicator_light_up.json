@@ -1,0 +1,24 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "portalreloaded:blocks/indicator_light_dot",
+        "line": "portalreloaded:blocks/indicator_light_line",
+        "overlay": "blocks/redstone_dust_overlay"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0.25 ],
+            "to": [ 16, 16, 0.25 ],
+            "shade": false,
+            "faces": {
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#line", "tintindex": 0 }
+            }
+        },
+        {   "from": [ 0, 0, 0.25 ],
+            "to": [ 16, 16, 0.25 ],
+            "shade": false,
+            "faces": {
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay" }
+            }
+        }
+    ]
+}

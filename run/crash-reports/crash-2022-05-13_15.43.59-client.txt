@@ -1,0 +1,161 @@
+---- Minecraft Crash Report ----
+// I bet Cylons wouldn't have this problem.
+
+Time: 5/13/22 3:44 PM
+Description: Tesselating block model
+
+java.lang.IllegalArgumentException: Cannot get property PropertyInteger{name=power, clazz=class java.lang.Integer, values=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]} as it does not exist in BlockStateContainer{block=portalreloaded:indicator_light, properties=[east, north, power, south, west]}
+	at net.minecraft.block.state.BlockStateContainer$StateImplementation.getValue(BlockStateContainer.java:204)
+	at com.cemi.portalreloaded.block.PortalBlocks$1.colorMultiplier(PortalBlocks.java:104)
+	at net.minecraft.client.renderer.color.BlockColors.colorMultiplier(BlockColors.java:185)
+	at net.minecraftforge.client.model.pipeline.BlockInfo.getColorMultiplier(BlockInfo.java:63)
+	at net.minecraftforge.client.model.pipeline.VertexLighterFlat.processQuad(VertexLighterFlat.java:164)
+	at net.minecraftforge.client.model.pipeline.QuadGatheringTransformer.put(QuadGatheringTransformer.java:66)
+	at net.minecraftforge.client.model.pipeline.LightUtil.putBakedQuad(LightUtil.java:113)
+	at net.minecraft.client.renderer.block.model.BakedQuad.pipe(BakedQuad.java:70)
+	at net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer.render(ForgeBlockModelRenderer.java:102)
+	at net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer.renderModelFlat(ForgeBlockModelRenderer.java:61)
+	at net.minecraft.client.renderer.BlockModelRenderer.renderModel(BlockModelRenderer.java:47)
+	at net.minecraft.client.renderer.BlockModelRenderer.renderModel(BlockModelRenderer.java:38)
+	at net.minecraft.client.renderer.BlockRendererDispatcher.renderBlock(BlockRendererDispatcher.java:80)
+	at net.minecraft.client.renderer.chunk.RenderChunk.rebuildChunk(RenderChunk.java:203)
+	at net.minecraft.client.renderer.chunk.ChunkRenderWorker.processTask(ChunkRenderWorker.java:122)
+	at net.minecraft.client.renderer.chunk.ChunkRenderDispatcher.updateChunkNow(ChunkRenderDispatcher.java:172)
+	at net.minecraft.client.renderer.RenderGlobal.setupTerrain(RenderGlobal.java:1012)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorldPass(EntityRenderer.java:1369)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1312)
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1115)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1209)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:442)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:25)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at net.minecraft.block.state.BlockStateContainer$StateImplementation.getValue(BlockStateContainer.java:204)
+	at com.cemi.portalreloaded.block.PortalBlocks$1.colorMultiplier(PortalBlocks.java:104)
+	at net.minecraft.client.renderer.color.BlockColors.colorMultiplier(BlockColors.java:185)
+	at net.minecraftforge.client.model.pipeline.BlockInfo.getColorMultiplier(BlockInfo.java:63)
+	at net.minecraftforge.client.model.pipeline.VertexLighterFlat.processQuad(VertexLighterFlat.java:164)
+	at net.minecraftforge.client.model.pipeline.QuadGatheringTransformer.put(QuadGatheringTransformer.java:66)
+	at net.minecraftforge.client.model.pipeline.LightUtil.putBakedQuad(LightUtil.java:113)
+	at net.minecraft.client.renderer.block.model.BakedQuad.pipe(BakedQuad.java:70)
+	at net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer.render(ForgeBlockModelRenderer.java:102)
+	at net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer.renderModelFlat(ForgeBlockModelRenderer.java:61)
+
+-- Block model being tesselated --
+Details:
+	Block: portalreloaded:indicator_light[east=side,north=none,power=false,south=none,west=none]
+	Block location: World: (437,4,251), Chunk: (at 5,0,11 in 27,15; contains blocks 432,0,240 to 447,255,255), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Using AO: false
+Stacktrace:
+	at net.minecraft.client.renderer.BlockModelRenderer.renderModel(BlockModelRenderer.java:47)
+	at net.minecraft.client.renderer.BlockModelRenderer.renderModel(BlockModelRenderer.java:38)
+
+-- Block being tesselated --
+Details:
+	Block type: ID #298 (tile.indicator_light // com.cemi.portalreloaded.block.BlockIndicatorLight // portalreloaded:indicator_light)
+	Block data value: 0 / 0x0 / 0b0000
+	Block location: World: (437,4,251), Chunk: (at 5,0,11 in 27,15; contains blocks 432,0,240 to 447,255,255), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+Stacktrace:
+	at net.minecraft.client.renderer.BlockRendererDispatcher.renderBlock(BlockRendererDispatcher.java:80)
+	at net.minecraft.client.renderer.chunk.RenderChunk.rebuildChunk(RenderChunk.java:203)
+	at net.minecraft.client.renderer.chunk.ChunkRenderWorker.processTask(ChunkRenderWorker.java:122)
+	at net.minecraft.client.renderer.chunk.ChunkRenderDispatcher.updateChunkNow(ChunkRenderDispatcher.java:172)
+	at net.minecraft.client.renderer.RenderGlobal.setupTerrain(RenderGlobal.java:1012)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorldPass(EntityRenderer.java:1369)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1312)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Player296'/77, l='MpServer', x=437.26, y=4.00, z=250.57]]
+	Chunk stats: MultiplayerChunkCache: 418, 418
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (384,4,123), Chunk: (at 0,0,11 in 24,7; contains blocks 384,0,112 to 399,255,127), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 186886 game time, 68708 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 24 total; [EntityChicken['Chicken'/66, l='MpServer', x=482.67, y=4.00, z=219.81], EntityCow['Cow'/34, l='MpServer', x=384.71, y=4.00, z=188.86], EntityPig['Pig'/67, l='MpServer', x=487.25, y=4.00, z=230.46], EntityPig['Pig'/35, l='MpServer', x=369.83, y=4.00, z=227.79], EntityChicken['Chicken'/69, l='MpServer', x=498.14, y=4.00, z=198.46], EntityPlayerSP['Player296'/77, l='MpServer', x=437.26, y=4.00, z=250.57], EntityItem['item.item.egg'/70, l='MpServer', x=498.91, y=4.00, z=198.57], EntityChicken['Chicken'/71, l='MpServer', x=506.68, y=4.00, z=214.83], EntityItem['item.tile.indicator_light'/40, l='MpServer', x=420.88, y=3.00, z=266.29], EntityItem['item.tile.indicator_light'/41, l='MpServer', x=421.39, y=4.00, z=270.64], EntityItem['item.tile.indicator_light'/42, l='MpServer', x=420.13, y=3.00, z=270.82], EntityItem['item.tile.indicator_light'/43, l='MpServer', x=420.27, y=3.00, z=264.98], EntityItem['item.tile.indicator_light'/44, l='MpServer', x=419.81, y=4.00, z=274.21], EntityCow['Cow'/47, l='MpServer', x=443.37, y=4.00, z=172.20], EntityLatchedRenderer['unknown'/529, l='MpServer', x=8.50, y=65.00, z=8.50], EntityChicken['Chicken'/58, l='MpServer', x=485.17, y=4.00, z=193.67], EntityItem['item.item.egg'/59, l='MpServer', x=476.78, y=4.00, z=198.85], EntityCow['Cow'/27, l='MpServer', x=360.61, y=4.00, z=187.07], EntityPig['Pig'/60, l='MpServer', x=479.28, y=4.00, z=213.35], EntitySheep['Sheep'/28, l='MpServer', x=366.19, y=4.00, z=196.22], EntityChicken['Chicken'/61, l='MpServer', x=466.24, y=4.00, z=231.86], EntityCow['Cow'/29, l='MpServer', x=367.38, y=4.00, z=220.45], EntityItem['item.item.egg'/62, l='MpServer', x=467.05, y=4.00, z=232.62], EntityPig['Pig'/63, l='MpServer', x=472.24, y=4.00, z=241.46]]
+	Retry entities: 1 total; [EntityLatchedRenderer['unknown'/529, l='MpServer', x=8.50, y=65.00, z=8.50]]
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:461)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2889)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:463)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:25)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_322, Temurin
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Temurin
+	Memory: 646810936 bytes (616 MB) / 1006632960 bytes (960 MB) up to 1006632960 bytes (960 MB)
+	JVM Flags: 2 total; -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 8 mods loaded, 8 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID             | Version      | Source                           | Signature                                |
+	|:------ |:-------------- |:------------ |:-------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft      | 1.12.2       | minecraft.jar                    | None                                     |
+	| LCHIJA | mcp            | 9.42         | minecraft.jar                    | None                                     |
+	| LCHIJA | FML            | 8.0.99.99    | forgeSrc-1.12.2-14.23.5.2847.jar | None                                     |
+	| LCHIJA | forge          | 14.23.5.2847 | forgeSrc-1.12.2-14.23.5.2847.jar | None                                     |
+	| LCHIJA | ichunutil      | 7.2.2        | iChunUtil-1.12.2-7.2.2.jar       | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+	| LCHIJA | portalgun      | 7.1.0        | PortalGun-1.12.2-7.1.0.jar       | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+	| LCHIJA | chiselsandbits | 14.33        | chiselsandbits-14.33.jar         | None                                     |
+	| LCHIJA | portalreloaded | 0.1          | bin                              | None                                     |
+
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 512.59' Renderer: 'NVIDIA GeForce RTX 2070 SUPER/PCIe/SSE2'
+	Launched Version: 1.12.2
+	LWJGL: 2.9.4
+	OpenGL: NVIDIA GeForce RTX 2070 SUPER/PCIe/SSE2 GL version 4.6.0 NVIDIA 512.59, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 8x Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz

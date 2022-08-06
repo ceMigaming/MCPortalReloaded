@@ -1,0 +1,138 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 8/16/21 6:35 PM
+Description: Ticking entity
+
+java.lang.NullPointerException: Ticking entity
+	at com.cemi.portalreloaded.entity.EntityPivotCube.onUpdate(EntityPivotCube.java:103)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2174)
+	at net.minecraft.world.World.updateEntity(World.java:2133)
+	at net.minecraft.world.World.updateEntities(World.java:1934)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1974)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1188)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:442)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:25)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at com.cemi.portalreloaded.entity.EntityPivotCube.onUpdate(EntityPivotCube.java:103)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2174)
+	at net.minecraft.world.World.updateEntity(World.java:2133)
+
+-- Entity being ticked --
+Details:
+	Entity Type: portalreloaded:pivot_cube (com.cemi.portalreloaded.entity.EntityPivotCube)
+	Entity ID: 465911
+	Entity Name: entity.pivot_cube.name
+	Entity's Exact location: 3.06, 11.00, 7.40
+	Entity's Block location: World: (3,11,7), Chunk: (at 3,0,7 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Entity's Momentum: 0.00, 0.00, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.world.World.updateEntities(World.java:1934)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Player578'/465910, l='MpServer', x=3.47, y=9.00, z=5.39]]
+	Chunk stats: MultiplayerChunkCache: 440, 440
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (140,4,-858), Chunk: (at 12,0,6 in 8,-54; contains blocks 128,0,-864 to 143,255,-849), Region: (0,-2; contains chunks 0,-64 to 31,-33, blocks 0,0,-1024 to 511,255,-513)
+	Level time: 191732 game time, 191732 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 31 total; [EntityItem['item.item.egg'/465927, l='MpServer', x=43.86, y=4.00, z=-34.87], EntityHorse['Horse'/465926, l='MpServer', x=47.89, y=4.00, z=-36.03], EntityChicken['Chicken'/465925, l='MpServer', x=46.70, y=4.00, z=-39.29], EntityItem['item.item.egg'/465924, l='MpServer', x=47.86, y=4.00, z=-51.36], EntityHorse['Horse'/465923, l='MpServer', x=19.59, y=4.00, z=9.79], EntityHorse['Horse'/465922, l='MpServer', x=18.89, y=4.00, z=8.70], EntityHorse['Horse'/465921, l='MpServer', x=16.31, y=4.00, z=11.39], EntityHorse['Horse'/465920, l='MpServer', x=-9.14, y=4.00, z=39.99], EntityChicken['Chicken'/465935, l='MpServer', x=56.12, y=4.00, z=-44.88], EntityItem['item.item.egg'/465934, l='MpServer', x=55.54, y=4.00, z=-39.37], EntityChicken['Chicken'/465933, l='MpServer', x=55.20, y=4.00, z=-39.34], EntitySheep['Sheep'/465932, l='MpServer', x=58.50, y=4.00, z=-40.50], EntityPig['Pig'/465931, l='MpServer', x=43.48, y=4.00, z=-11.77], EntityPig['Pig'/465930, l='MpServer', x=41.49, y=4.00, z=-30.71], EntityHorse['Horse'/465929, l='MpServer', x=46.90, y=4.00, z=-21.96], EntitySheep['Sheep'/465928, l='MpServer', x=42.76, y=4.00, z=-32.52], EntityItem['item.item.egg'/465940, l='MpServer', x=51.76, y=4.00, z=-23.99], EntityChicken['Chicken'/465939, l='MpServer', x=52.22, y=4.00, z=-24.53], EntityPig['Pig'/465938, l='MpServer', x=56.21, y=4.00, z=-25.35], EntityHorse['Horse'/465937, l='MpServer', x=58.65, y=4.00, z=-35.85], EntityCow['Cow'/465936, l='MpServer', x=63.82, y=4.00, z=-37.82], EntityHorse['Horse'/465965, l='MpServer', x=80.18, y=4.00, z=-65.14], EntityCow['Cow'/465960, l='MpServer', x=68.55, y=4.00, z=-40.72], EntityPivotCube['entity.pivot_cube.name'/465911, l='MpServer', x=3.06, y=11.00, z=7.40], EntitySheep['Sheep'/465919, l='MpServer', x=-7.42, y=4.00, z=36.25], EntityCow['Cow'/465918, l='MpServer', x=-13.62, y=4.00, z=-17.21], EntityHorse['Horse'/465917, l='MpServer', x=-16.74, y=4.00, z=43.89], EntityCow['Cow'/465916, l='MpServer', x=-34.31, y=4.00, z=-20.19], EntityCow['Cow'/465915, l='MpServer', x=-20.68, y=4.00, z=-37.14], EntityCow['Cow'/465914, l='MpServer', x=-40.50, y=4.00, z=-19.50], EntityPlayerSP['Player578'/465910, l='MpServer', x=3.47, y=9.00, z=5.39]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:461)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2889)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:463)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:25)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_262, AdoptOpenJDK
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), AdoptOpenJDK
+	Memory: 482572984 bytes (460 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 9 mods loaded, 9 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID             | Version      | Source                           | Signature                                |
+	|:------ |:-------------- |:------------ |:-------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft      | 1.12.2       | minecraft.jar                    | None                                     |
+	| LCHIJA | mcp            | 9.42         | minecraft.jar                    | None                                     |
+	| LCHIJA | FML            | 8.0.99.99    | forgeSrc-1.12.2-14.23.5.2847.jar | None                                     |
+	| LCHIJA | forge          | 14.23.5.2847 | forgeSrc-1.12.2-14.23.5.2847.jar | None                                     |
+	| LCHIJA | ichunutil      | 7.2.2        | iChunUtil-1.12.2-7.2.2.jar       | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+	| LCHIJA | portalgun      | 7.1.0        | PortalGun-1.12.2-7.1.0.jar       | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+	| LCHIJA | portalreloaded | 0.1          | bin                              | None                                     |
+	| LCHIJA | hammercore     | 2.0.4.8      | HammerCore-1.12.2-2.0.4.8.jar    | 4d7b29cd19124e986da685107d16ce4b49bc0a97 |
+	| LCHIJA | portalstuff    | 1b           | PortalStuff_1.12.2-1b.jar        | None                                     |
+
+	Loaded coremods (and transformers): 
+HCASM (HammerCore-1.12.2-2.0.4.8.jar)
+  com.zeitheron.hammercore.asm.HammerCoreTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 466.27' Renderer: 'NVIDIA GeForce RTX 2070 SUPER/PCIe/SSE2'
+	Hammer Core Information: FluidDictionary Info: Registered 2 fluids.
+OreDictionary Info: Registered 158 names; 195 stacks.
+Pastebin Connection: Okay.
+Dependent Mods:
+    -Portal Stuff (portalstuff) @1b
+
+	Launched Version: 1.12.2
+	LWJGL: 2.9.4
+	OpenGL: NVIDIA GeForce RTX 2070 SUPER/PCIe/SSE2 GL version 4.6.0 NVIDIA 466.27, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 8x Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz

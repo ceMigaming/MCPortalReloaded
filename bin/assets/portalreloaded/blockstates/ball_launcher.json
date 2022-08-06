@@ -1,0 +1,16 @@
+{
+    "forge_marker": 1,
+    "variants": {
+        "facing=down":  { "model": "portalreloaded:ball_launcher", "x": 90 },
+        "facing=up":    { "model": "portalreloaded:ball_launcher", "x": 270 },
+        "facing=north": { "model": "portalreloaded:ball_launcher", "y": 0 },
+        "facing=east":  { "model": "portalreloaded:ball_launcher", "y": 90 },
+        "facing=south": { "model": "portalreloaded:ball_launcher", "y": 180 },
+        "facing=west":  { "model": "portalreloaded:ball_launcher", "y": 270 },
+        "inventory": {
+            "model": "portalreloaded:ball_launcher",
+            "transform": "forge:default-block",
+            "y": 180
+        }
+    }
+}

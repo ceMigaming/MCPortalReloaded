@@ -1,0 +1,24 @@
+{
+  "multipart" : [ {
+    "when" : {
+      "powered" : "true"
+    },
+    "apply" : {
+      "model" : "portalreloaded:floor_button_on"
+    }
+  }, {
+    "when" : {
+      "powered" : "false"
+    },
+    "apply" : {
+      "model" : "portalreloaded:floor_button_off"
+    }
+  } ],
+  "variants" : {
+    "inventory" : {
+      "model" : "portalreloaded:floor_button_off",
+      "transform" : "forge:default-block",
+      "y" : 180
+    }
+  }
+}

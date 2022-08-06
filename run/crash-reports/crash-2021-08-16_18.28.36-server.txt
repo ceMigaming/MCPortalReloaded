@@ -1,0 +1,85 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 16.08.21 18:28
+Description: Exception in server tick loop
+
+java.lang.NoClassDefFoundError: net/minecraft/client/entity/EntityPlayerSP
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getConstructor0(Class.java:3075)
+	at java.lang.Class.getDeclaredConstructor(Class.java:2178)
+	at net.minecraftforge.fml.relauncher.ReflectionHelper.findConstructor(ReflectionHelper.java:326)
+	at net.minecraftforge.fml.common.ObfuscationReflectionHelper.findConstructor(ObfuscationReflectionHelper.java:194)
+	at net.minecraftforge.fml.common.registry.EntityEntryBuilder$ConstructorFactory.<init>(EntityEntryBuilder.java:299)
+	at net.minecraftforge.fml.common.registry.EntityEntryBuilder$1.<init>(EntityEntryBuilder.java:267)
+	at net.minecraftforge.fml.common.registry.EntityEntryBuilder.build(EntityEntryBuilder.java:267)
+	at com.cemi.portalreloaded.entity.PortalEntities.register(PortalEntities.java:39)
+	at com.cemi.portalreloaded.entity.PortalEntities.register(PortalEntities.java:33)
+	at com.cemi.portalreloaded.PortalReloaded$RegistrationHandler.registerEntity(PortalReloaded.java:90)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_6_RegistrationHandler_registerEntity_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:144)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:859)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:630)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:99)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.init(DedicatedServer.java:128)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:552)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.entity.EntityPlayerSP
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 23 more
+Caused by: net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerException: Exception in class transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer@26722665 from coremod FMLCorePlugin
+	at net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerWrapper.transform(ASMTransformerWrapper.java:260)
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279)
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176)
+	... 25 more
+Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/client/entity/EntityPlayerSP for invalid side SERVER
+	at net.minecraftforge.fml.common.asm.transformers.SideTransformer.transform(SideTransformer.java:62)
+	at net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerWrapper.transform(ASMTransformerWrapper.java:256)
+	... 27 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_262, AdoptOpenJDK
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), AdoptOpenJDK
+	Memory: 924280120 bytes (881 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 9 mods loaded, 9 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID             | Version      | Source                           | Signature                                |
+	|:----- |:-------------- |:------------ |:-------------------------------- |:---------------------------------------- |
+	| LCH   | minecraft      | 1.12.2       | minecraft.jar                    | None                                     |
+	| LCH   | mcp            | 9.42         | minecraft.jar                    | None                                     |
+	| LCH   | FML            | 8.0.99.99    | forgeSrc-1.12.2-14.23.5.2847.jar | None                                     |
+	| LCH   | forge          | 14.23.5.2847 | forgeSrc-1.12.2-14.23.5.2847.jar | None                                     |
+	| LCH   | ichunutil      | 7.2.2        | iChunUtil-1.12.2-7.2.2.jar       | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+	| LCH   | portalgun      | 7.1.0        | PortalGun-1.12.2-7.1.0.jar       | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+	| LCH   | portalreloaded | 0.1          | bin                              | None                                     |
+	| LCH   | hammercore     | 2.0.4.8      | HammerCore-1.12.2-2.0.4.8.jar    | 4d7b29cd19124e986da685107d16ce4b49bc0a97 |
+	| LCH   | portalstuff    | 1b           | PortalStuff_1.12.2-1b.jar        | None                                     |
+
+	Loaded coremods (and transformers): 
+HCASM (HammerCore-1.12.2-2.0.4.8.jar)
+  com.zeitheron.hammercore.asm.HammerCoreTransformer
+	Hammer Core Information: FluidDictionary Info: Registered 2 fluids.
+OreDictionary Info: Registered 156 names; 194 stacks.
+Pastebin Connection: Okay.
+Dependent Mods:
+    -Portal Stuff (portalstuff) @1b
+
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

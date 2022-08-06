@@ -1,0 +1,1234 @@
+[14:47:00] [main/INFO] [GradleStart]: Extra: []
+[14:47:00] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/macie/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[14:47:00] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:47:00] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:47:01] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[14:47:01] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:47:01] [main/DEBUG] [FML]: Injecting tracing printstreams for STDOUT/STDERR.
+[14:47:01] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
+[14:47:01] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_322, running on Windows 10:amd64:10.0, installed at C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre
+[14:47:01] [main/DEBUG] [FML]: Java classpath at launch is:
+[14:47:01] [main/DEBUG] [FML]:     G:\Minecraft-modding\Forge\PortalReloaded_1.12.2\bin
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\minecraft\net\minecraftforge\forge\1.12.2-14.23.5.2847\snapshot\20171003\forgeSrc-1.12.2-14.23.5.2847.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.1\f7be08ec23c21485b9b5a1cf1654c2ec8c58168d\jsr305-3.0.1.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\1.3.9\eb8bb7b66fa0e2152b1b40b3856e82f7619439ee\patchy-1.3.9.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\oshi-project\oshi-core\1.1\9ddf7b048a8d701be231c0f4f95fd986198fd2d8\oshi-core-1.1.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\4.4.0\cb208278274bf12ebdb56c61bd7407e6f774d65a\jna-4.4.0.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\platform\3.4.0\e3f70017be8100d3d6923f50b3d2ee17714e9c13\platform-3.4.0.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.3\cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a\jopt-simple-5.0.3.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.1.9.Final\97860965d6a0a6b98e7f569f3f966727b8db75\netty-all-4.1.9.Final.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\21.0\3a3d111be1be1b745edfa7d91678a12d7ed38709\guava-21.0.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.5\6c6c702c89bfff3cd9e80b04d668c5e190d588c6\commons-lang3-3.5.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.5\2852e6e05fbb95076fc091f6d1780f1f8fe35e0f\commons-io-2.5.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.10\4b95f4897fa13f2cd904aee711aeafc0c5295cd8\commons-codec-1.10.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\1.5.25\9834cdf236c22e84b946bba989e2f94ef5897c3c\authlib-1.5.25.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.mojang\realms\1.10.22\bd0dccebdf3744c75f1ca20063f16e8f7d5e663f\realms-1.10.22.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\7.1.0\9835253257524c1be7ab50c057aa2d418fb72082\fastutil-7.1.0.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.8.1\e801d13612e22cad62a3f4f3fe7fdbe6334a8e72\log4j-api-2.8.1.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.8.1\4ac28ff2f1ddf05dae3043a190451e8c46b73c31\log4j-core-2.8.1.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.10.3\48fd510879dff266c3815947de66e3d4809f8668\text2speech-1.10.3.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\net.minecraft\launchwrapper\1.12\111e7bea9c968cdb3d06ef4632bf7ff0824d0f36\launchwrapper-1.12.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.jline\jline\3.5.1\51800e9d7a13608894a5a28eed0f5c7fa2f300fb\jline-3.5.1.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\5.2\3354e11e2b34215f06dab629ab88e06aca477c19\asm-debug-all-5.2.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.typesafe.akka\akka-actor_2.11\2.3.3\ed62e9fc709ca0f2ff1a3220daa8b70a2870078e\akka-actor_2.11-2.3.3.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.typesafe\config\1.2.1\f771f71fdae3df231bcd54d5ca2d57f0bf93f467\config-1.2.1.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors-migration_2.11\1.1.0\dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f\scala-actors-migration_2.11-1.1.0.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-compiler\2.11.1\56ea2e6c025e0821f28d73ca271218b8dd04926a\scala-compiler-2.11.1.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-library_2.11\1.0.2\e517c53a7e9acd6b1668c5a35eccbaa3bab9aac\scala-continuations-library_2.11-1.0.2.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-plugin_2.11.1\1.0.2\f361a3283452c57fa30c1ee69448995de23c60f7\scala-continuations-plugin_2.11.1-1.0.2.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.1\e11da23da3eabab9f4777b9220e60d44c1aab6a\scala-library-2.11.1.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.1\6580347e61cc7f8e802941e7fde40fa83b8badeb\scala-reflect-2.11.1.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-swing_2.11\1.0.1\b1cdd92bd47b1e1837139c1c53020e86bb9112ae\scala-swing_2.11-1.0.1.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-xml_2.11\1.0.2\820fbca7e524b530fdadc594c39d49a21ea0337e\scala-xml_2.11-1.0.2.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\lzma\lzma\0.0.1\521616dc7487b42bef0e803bd2fa3faf668101d7\lzma-0.0.1.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\net.sf.trove4j\trove4j\3.0.3\42ccaf4761f0dfdfa805c9e340d99a755907e2dd\trove4j-3.0.3.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.paulscode\codecjorbis\20101023\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.paulscode\codecwav\20101023\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.paulscode\libraryjavasound\20101123\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.paulscode\librarylwjglopenal\20100824\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.paulscode\soundsystem\20120107\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.4-nightly-20150209\697517568c68e78ae0b4544145af031c81082dfe\lwjgl-2.9.4-nightly-20150209.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.4-nightly-20150209\d51a7c040a721d13efdfbd34f8b257b2df882ad0\lwjgl_util-2.9.4-nightly-20150209.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\java3d\vecmath\1.5.2\79846ba34cbd89e2422d74d53752f993dcc2ccaf\vecmath-1.5.2.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.0.0\6ef160c3133a78de015830860197602ca1c855d3\java-objc-bridge-1.0.0.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors\2.11.0\8ccfb6541de179bb1c4d45cf414acee069b7f78b\scala-actors-2.11.0.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.1.0\60eecb6f15abdb1c653ad80abaac6fe188b3feaa\plexus-utils-3.1.0.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\b84d5102b9dbfabfeb5e43c7e2828d98a7fc80e0\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\931074f46c795d2f7b30ed6395df5715cfd7675b\lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\bcab850f8f487c3f4c4dbabde778bb82bd1a40ed\lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jar
+[14:47:01] [main/DEBUG] [FML]:     G:\Minecraft-modding\Forge\PortalReloaded_1.12.2\libs\iChunUtil-1.12.2-7.2.2.jar
+[14:47:01] [main/DEBUG] [FML]:     G:\Minecraft-modding\Forge\PortalReloaded_1.12.2\libs\PortalGun-1.12.2-7.1.0.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\minecraft\deobfedDeps\compileDummy.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\minecraft\deobfedDeps\providedDummy.jar
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.gradle\caches\minecraft\net\minecraftforge\forge\1.12.2-14.23.5.2847\start
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\225\0\.cp\lib\javaagent-shaded.jar
+[14:47:01] [main/DEBUG] [FML]: Java library path at launch is:
+[14:47:01] [main/DEBUG] [FML]:     C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\bin
+[14:47:01] [main/DEBUG] [FML]:     C:\Windows\Sun\Java\bin
+[14:47:01] [main/DEBUG] [FML]:     C:\Windows\system32
+[14:47:01] [main/DEBUG] [FML]:     C:\Windows
+[14:47:01] [main/DEBUG] [FML]:     C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre\bin
+[14:47:01] [main/DEBUG] [FML]:     C:/Users/macie/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin/server
+[14:47:01] [main/DEBUG] [FML]:     C:/Users/macie/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin
+[14:47:01] [main/DEBUG] [FML]:     C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\bin
+[14:47:01] [main/DEBUG] [FML]:     C:\Windows\system32
+[14:47:01] [main/DEBUG] [FML]:     C:\Windows
+[14:47:01] [main/DEBUG] [FML]:     C:\Windows\System32\Wbem
+[14:47:01] [main/DEBUG] [FML]:     C:\Windows\System32\WindowsPowerShell\v1.0\
+[14:47:01] [main/DEBUG] [FML]:     C:\Windows\System32\OpenSSH\
+[14:47:01] [main/DEBUG] [FML]:     C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR
+[14:47:01] [main/DEBUG] [FML]:     C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+[14:47:01] [main/DEBUG] [FML]:     C:\Program Files (x86)\ZeroTier\One\
+[14:47:01] [main/DEBUG] [FML]:     C:\Program Files\Microsoft SQL Server\150\Tools\Binn\
+[14:47:01] [main/DEBUG] [FML]:     C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\
+[14:47:01] [main/DEBUG] [FML]:     C:\Program Files\dotnet\
+[14:47:01] [main/DEBUG] [FML]:     C:\Windowssystem32
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\AppData\Local\Microsoft\WindowsApps
+[14:47:01] [main/DEBUG] [FML]:     
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\AppData\Local\Programs\Microsoft VS Code\bin
+[14:47:01] [main/DEBUG] [FML]:     C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin
+[14:47:01] [main/DEBUG] [FML]:     
+[14:47:01] [main/DEBUG] [FML]:     C:\Users\macie\.dotnet\tools
+[14:47:01] [main/DEBUG] [FML]:     C:\Windows\System32
+[14:47:01] [main/DEBUG] [FML]:     
+[14:47:01] [main/DEBUG] [FML]:     .
+[14:47:01] [main/DEBUG] [FML]:     C:/Users/macie/.gradle/caches/minecraft/net/minecraft/natives/1.12.2
+[14:47:01] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[14:47:01] [main/ERROR] [FML]: Full: C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[14:47:01] [main/ERROR] [FML]: Trimmed: c:/users/macie/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[14:47:01] [main/DEBUG] [FML]: Determined Minecraft Libraries Root: .\libraries
+[14:47:01] [main/DEBUG] [FML]: Cleaning up mods folder: .\mods
+[14:47:01] [main/DEBUG] [FML]: Examining file: chiselsandbits-14.33.jar
+[14:47:01] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[14:47:01] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[14:47:03] [main/DEBUG] [FML]: Instantiating coremod class FMLCorePlugin
+[14:47:03] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[14:47:03] [main/DEBUG] [FML]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[14:47:03] [main/DEBUG] [FML]: Enqueued coremod FMLCorePlugin
+[14:47:03] [main/DEBUG] [FML]: Instantiating coremod class FMLForgePlugin
+[14:47:03] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[14:47:03] [main/DEBUG] [FML]: Enqueued coremod FMLForgePlugin
+[14:47:03] [main/DEBUG] [FML]: All fundamental core mods are successfully located
+[14:47:03] [main/DEBUG] [FML]: Discovering coremods
+[14:47:03] [main/INFO] [FML]: Searching G:\Minecraft-modding\Forge\PortalReloaded_1.12.2\run\.\mods for mods
+[14:47:03] [main/DEBUG] [FML]:   Adding chiselsandbits-14.33.jar to the mod list
+[14:47:03] [main/DEBUG] [FML]: Examining for coremod candidacy chiselsandbits-14.33.jar
+[14:47:03] [main/DEBUG] [FML]: Not found coremod data in chiselsandbits-14.33.jar
+[14:47:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[14:47:03] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[14:47:03] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[14:47:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:47:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:47:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[14:47:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:47:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:47:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:47:03] [main/DEBUG] [FML]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[14:47:03] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[14:47:03] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[14:47:03] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[14:47:03] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[14:47:03] [main/DEBUG] [FML]: Injection complete
+[14:47:03] [main/DEBUG] [FML]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[14:47:03] [main/DEBUG] [FML]: Running coremod plugin FMLCorePlugin
+[14:47:03] [main/DEBUG] [FML]: Loading deobfuscation resource C:\Users\macie\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg with 36076 records
+[14:47:05] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[14:47:05] [main/DEBUG] [FML]: Coremod plugin class FMLCorePlugin run successfully
+[14:47:05] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:47:05] [main/DEBUG] [FML]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[14:47:05] [main/DEBUG] [FML]: Injection complete
+[14:47:05] [main/DEBUG] [FML]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[14:47:05] [main/DEBUG] [FML]: Running coremod plugin FMLForgePlugin
+[14:47:05] [main/DEBUG] [FML]: Coremod plugin class FMLForgePlugin run successfully
+[14:47:05] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:47:05] [main/DEBUG] [FML]: Loaded 215 rules from AccessTransformer config file forge_at.cfg
+[14:47:05] [main/DEBUG] [FML]: Loaded 119 rules from AccessTransformer mod jar file G:\Minecraft-modding\Forge\PortalReloaded_1.12.2\libs\iChunUtil-1.12.2-7.2.2.jar!META-INF/iChunUtil_at.cfg
+
+[14:47:05] [main/DEBUG] [FML]: Loaded 7 rules from AccessTransformer mod jar file .\mods\chiselsandbits-14.33.jar!META-INF/chiselsandbits_at.cfg
+
+[14:47:05] [main/DEBUG] [FML]: Validating minecraft
+[14:47:06] [main/DEBUG] [FML]: Minecraft validated, launching...
+[14:47:06] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[14:47:06] [main/DEBUG] [GradleStart]: Reading CSV file: C:\Users\macie\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\fields.csv
+[14:47:06] [main/DEBUG] [GradleStart]: Reading CSV file: C:\Users\macie\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\methods.csv
+[14:47:06] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
+[14:47:06] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:47:06] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:47:06] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[14:47:06] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player187
+[14:47:10] [Client thread/DEBUG] [FML]: Creating vanilla freeze snapshot
+[14:47:11] [Client thread/DEBUG] [FML]: Vanilla freeze snapshot created
+[14:47:11] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[14:47:11] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[14:47:12] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - LanguageManager took 0.001s
+[14:47:12] [Client thread/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_322, Temurin
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Temurin
+	Memory: 886521984 bytes (845 MB) / 1008730112 bytes (962 MB) up to 1008730112 bytes (962 MB)
+	JVM Flags: 2 total; -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 512.59' Renderer: 'NVIDIA GeForce RTX 2070 SUPER/PCIe/SSE2'
+[14:47:12] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
+[14:47:12] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[14:47:13] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[14:47:13] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[14:47:15] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 110527500 nanos
+[14:47:15] [Client thread/DEBUG] [FML]: File G:\Minecraft-modding\Forge\PortalReloaded_1.12.2\run\config\injectedDependencies.json not found. No dependencies injected
+[14:47:15] [Client thread/DEBUG] [FML]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[14:47:15] [Client thread/DEBUG] [FML]: Attempting to load mods contained in the minecraft jar file and associated classes
+[14:47:15] [Client thread/DEBUG] [FML]: Found a minecraft related directory at G:\Minecraft-modding\Forge\PortalReloaded_1.12.2\bin, examining for mod candidates
+[14:47:15] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\macie\.gradle\caches\minecraft\net\minecraftforge\forge\1.12.2-14.23.5.2847\snapshot\20171003\forgeSrc-1.12.2-14.23.5.2847.jar, examining for mod candidates
+[14:47:15] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.1\f7be08ec23c21485b9b5a1cf1654c2ec8c58168d\jsr305-3.0.1.jar, examining for mod candidates
+[14:47:15] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\1.3.9\eb8bb7b66fa0e2152b1b40b3856e82f7619439ee\patchy-1.3.9.jar, examining for mod candidates
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\oshi-project\oshi-core\1.1\9ddf7b048a8d701be231c0f4f95fd986198fd2d8\oshi-core-1.1.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\4.4.0\cb208278274bf12ebdb56c61bd7407e6f774d65a\jna-4.4.0.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\platform\3.4.0\e3f70017be8100d3d6923f50b3d2ee17714e9c13\platform-3.4.0.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.3\cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a\jopt-simple-5.0.3.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.1.9.Final\97860965d6a0a6b98e7f569f3f966727b8db75\netty-all-4.1.9.Final.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\21.0\3a3d111be1be1b745edfa7d91678a12d7ed38709\guava-21.0.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.5\6c6c702c89bfff3cd9e80b04d668c5e190d588c6\commons-lang3-3.5.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.5\2852e6e05fbb95076fc091f6d1780f1f8fe35e0f\commons-io-2.5.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.10\4b95f4897fa13f2cd904aee711aeafc0c5295cd8\commons-codec-1.10.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\1.5.25\9834cdf236c22e84b946bba989e2f94ef5897c3c\authlib-1.5.25.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.mojang\realms\1.10.22\bd0dccebdf3744c75f1ca20063f16e8f7d5e663f\realms-1.10.22.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\7.1.0\9835253257524c1be7ab50c057aa2d418fb72082\fastutil-7.1.0.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.8.1\e801d13612e22cad62a3f4f3fe7fdbe6334a8e72\log4j-api-2.8.1.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.8.1\4ac28ff2f1ddf05dae3043a190451e8c46b73c31\log4j-core-2.8.1.jar
+[14:47:15] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.10.3\48fd510879dff266c3815947de66e3d4809f8668\text2speech-1.10.3.jar, examining for mod candidates
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\net.minecraft\launchwrapper\1.12\111e7bea9c968cdb3d06ef4632bf7ff0824d0f36\launchwrapper-1.12.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.jline\jline\3.5.1\51800e9d7a13608894a5a28eed0f5c7fa2f300fb\jline-3.5.1.jar
+[14:47:15] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\5.2\3354e11e2b34215f06dab629ab88e06aca477c19\asm-debug-all-5.2.jar, examining for mod candidates
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.typesafe.akka\akka-actor_2.11\2.3.3\ed62e9fc709ca0f2ff1a3220daa8b70a2870078e\akka-actor_2.11-2.3.3.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.typesafe\config\1.2.1\f771f71fdae3df231bcd54d5ca2d57f0bf93f467\config-1.2.1.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors-migration_2.11\1.1.0\dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f\scala-actors-migration_2.11-1.1.0.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-compiler\2.11.1\56ea2e6c025e0821f28d73ca271218b8dd04926a\scala-compiler-2.11.1.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-library_2.11\1.0.2\e517c53a7e9acd6b1668c5a35eccbaa3bab9aac\scala-continuations-library_2.11-1.0.2.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-plugin_2.11.1\1.0.2\f361a3283452c57fa30c1ee69448995de23c60f7\scala-continuations-plugin_2.11.1-1.0.2.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.1\e11da23da3eabab9f4777b9220e60d44c1aab6a\scala-library-2.11.1.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.1\6580347e61cc7f8e802941e7fde40fa83b8badeb\scala-reflect-2.11.1.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-swing_2.11\1.0.1\b1cdd92bd47b1e1837139c1c53020e86bb9112ae\scala-swing_2.11-1.0.1.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-xml_2.11\1.0.2\820fbca7e524b530fdadc594c39d49a21ea0337e\scala-xml_2.11-1.0.2.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\lzma\lzma\0.0.1\521616dc7487b42bef0e803bd2fa3faf668101d7\lzma-0.0.1.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\net.sf.trove4j\trove4j\3.0.3\42ccaf4761f0dfdfa805c9e340d99a755907e2dd\trove4j-3.0.3.jar
+[14:47:15] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar, examining for mod candidates
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.paulscode\codecjorbis\20101023\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.paulscode\codecwav\20101023\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.paulscode\libraryjavasound\20101123\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.paulscode\librarylwjglopenal\20100824\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\com.paulscode\soundsystem\20120107\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.4-nightly-20150209\697517568c68e78ae0b4544145af031c81082dfe\lwjgl-2.9.4-nightly-20150209.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.4-nightly-20150209\d51a7c040a721d13efdfbd34f8b257b2df882ad0\lwjgl_util-2.9.4-nightly-20150209.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\java3d\vecmath\1.5.2\79846ba34cbd89e2422d74d53752f993dcc2ccaf\vecmath-1.5.2.jar
+[14:47:15] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\macie\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.0.0\6ef160c3133a78de015830860197602ca1c855d3\java-objc-bridge-1.0.0.jar, examining for mod candidates
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors\2.11.0\8ccfb6541de179bb1c4d45cf414acee069b7f78b\scala-actors-2.11.0.jar
+[14:47:15] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.1.0\60eecb6f15abdb1c653ad80abaac6fe188b3feaa\plexus-utils-3.1.0.jar, examining for mod candidates
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\b84d5102b9dbfabfeb5e43c7e2828d98a7fc80e0\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\931074f46c795d2f7b30ed6395df5715cfd7675b\lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar
+[14:47:15] [Client thread/TRACE] [FML]: Skipping known library file C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.4-nightly-20150209\bcab850f8f487c3f4c4dbabde778bb82bd1a40ed\lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jar
+[14:47:15] [Client thread/DEBUG] [FML]: Found a minecraft related file at G:\Minecraft-modding\Forge\PortalReloaded_1.12.2\libs\iChunUtil-1.12.2-7.2.2.jar, examining for mod candidates
+[14:47:15] [Client thread/DEBUG] [FML]: Found a minecraft related file at G:\Minecraft-modding\Forge\PortalReloaded_1.12.2\libs\PortalGun-1.12.2-7.1.0.jar, examining for mod candidates
+[14:47:15] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\macie\.gradle\caches\minecraft\deobfedDeps\compileDummy.jar, examining for mod candidates
+[14:47:15] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\macie\.gradle\caches\minecraft\deobfedDeps\providedDummy.jar, examining for mod candidates
+[14:47:15] [Client thread/DEBUG] [FML]: Found a minecraft related directory at C:\Users\macie\.gradle\caches\minecraft\net\minecraftforge\forge\1.12.2-14.23.5.2847\start, examining for mod candidates
+[14:47:15] [Client thread/DEBUG] [FML]: Found a minecraft related file at C:\Users\macie\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\225\0\.cp\lib\javaagent-shaded.jar, examining for mod candidates
+[14:47:15] [Client thread/DEBUG] [FML]: Minecraft jar mods loaded successfully
+[14:47:15] [Client thread/INFO] [FML]: Searching G:\Minecraft-modding\Forge\PortalReloaded_1.12.2\run\.\mods for mods
+[14:47:15] [Client thread/DEBUG] [FML]:   Adding chiselsandbits-14.33.jar to the mod list
+[14:47:15] [Client thread/DEBUG] [FML]: Found a candidate zip or jar file chiselsandbits-14.33.jar
+[14:47:15] [Client thread/DEBUG] [FML]: Examining directory bin for potential mods
+[14:47:15] [Client thread/DEBUG] [FML]: Found an mcmod.info file in directory bin
+[14:47:15] [Client thread/TRACE] [FML]: Recursing into package assets
+[14:47:15] [Client thread/TRACE] [FML]: Recursing into package assets/portalreloaded
+[14:47:15] [Client thread/TRACE] [FML]: Recursing into package assets/portalreloaded/blockstates
+[14:47:15] [Client thread/TRACE] [FML]: Recursing into package assets/portalreloaded/models
+[14:47:15] [Client thread/TRACE] [FML]: Recursing into package assets/portalreloaded/models/block
+[14:47:15] [Client thread/TRACE] [FML]: Recursing into package assets/portalreloaded/models/item
+[14:47:15] [Client thread/TRACE] [FML]: Recursing into package assets/portalreloaded/textures
+[14:47:15] [Client thread/TRACE] [FML]: Recursing into package assets/portalreloaded/textures/blocks
+[14:47:15] [Client thread/TRACE] [FML]: Recursing into package assets/portalreloaded/textures/entity
+[14:47:15] [Client thread/TRACE] [FML]: Recursing into package assets/portalreloaded/textures/items
+[14:47:15] [Client thread/TRACE] [FML]: Recursing into package assets/portalreloaded/textures/models
+[14:47:15] [Client thread/TRACE] [FML]: Recursing into package assets/portalreloaded/textures/models/armor
+[14:47:15] [Client thread/TRACE] [FML]: Recursing into package com
+[14:47:15] [Client thread/TRACE] [FML]: Recursing into package com/cemi
+[14:47:15] [Client thread/TRACE] [FML]: Recursing into package com/cemi/portalreloaded
+[14:47:15] [Client thread/TRACE] [FML]: Recursing into package com/cemi/portalreloaded/block
+[14:47:16] [Client thread/TRACE] [FML]: Recursing into package com/cemi/portalreloaded/client
+[14:47:16] [Client thread/TRACE] [FML]: Recursing into package com/cemi/portalreloaded/client/renderer
+[14:47:16] [Client thread/TRACE] [FML]: Recursing into package com/cemi/portalreloaded/client/renderer/entity
+[14:47:16] [Client thread/TRACE] [FML]: Recursing into package com/cemi/portalreloaded/client/renderer/entity/model
+[14:47:16] [Client thread/TRACE] [FML]: Recursing into package com/cemi/portalreloaded/client/renderer/tesr
+[14:47:16] [Client thread/TRACE] [FML]: Recursing into package com/cemi/portalreloaded/client/renderer/utility
+[14:47:16] [Client thread/TRACE] [FML]: Recursing into package com/cemi/portalreloaded/command
+[14:47:16] [Client thread/TRACE] [FML]: Recursing into package com/cemi/portalreloaded/entity
+[14:47:16] [Client thread/TRACE] [FML]: Recursing into package com/cemi/portalreloaded/handlers
+[14:47:16] [Client thread/TRACE] [FML]: Recursing into package com/cemi/portalreloaded/item
+[14:47:16] [Client thread/TRACE] [FML]: Recursing into package com/cemi/portalreloaded/packets
+[14:47:16] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.cemi.portalreloaded.PortalReloaded) - loading
+[14:47:16] [Client thread/TRACE] [FML]: Parsed dependency info for portalreloaded: Requirements: [portalgun, ichunutil] After:[ichunutil, portalgun, chiselsandbits] Before:[]
+[14:47:16] [Client thread/TRACE] [FML]: Recursing into package com/cemi/portalreloaded/proxy
+[14:47:16] [Client thread/TRACE] [FML]: Recursing into package com/cemi/portalreloaded/tileentity
+[14:47:16] [Client thread/TRACE] [FML]: Recursing into package com/cemi/portalreloaded/utility
+[14:47:16] [Client thread/TRACE] [FML]: Recursing into package obj
+[14:47:16] [Client thread/TRACE] [FML]: Recursing into package obj/blocks
+[14:47:16] [Client thread/DEBUG] [FML]: Examining file forgeSrc-1.12.2-14.23.5.2847.jar for potential mods
+[14:47:16] [Client thread/DEBUG] [FML]: The mod container forgeSrc-1.12.2-14.23.5.2847.jar appears to be missing an mcmod.info file
+[14:47:17] [Client thread/DEBUG] [FML]: Examining file jsr305-3.0.1.jar for potential mods
+[14:47:17] [Client thread/DEBUG] [FML]: The mod container jsr305-3.0.1.jar appears to be missing an mcmod.info file
+[14:47:17] [Client thread/DEBUG] [FML]: Examining file patchy-1.3.9.jar for potential mods
+[14:47:17] [Client thread/DEBUG] [FML]: The mod container patchy-1.3.9.jar appears to be missing an mcmod.info file
+[14:47:17] [Client thread/DEBUG] [FML]: Examining file text2speech-1.10.3.jar for potential mods
+[14:47:17] [Client thread/DEBUG] [FML]: The mod container text2speech-1.10.3.jar appears to be missing an mcmod.info file
+[14:47:17] [Client thread/DEBUG] [FML]: Examining file asm-debug-all-5.2.jar for potential mods
+[14:47:17] [Client thread/DEBUG] [FML]: The mod container asm-debug-all-5.2.jar appears to be missing an mcmod.info file
+[14:47:17] [Client thread/DEBUG] [FML]: Examining file maven-artifact-3.5.3.jar for potential mods
+[14:47:17] [Client thread/DEBUG] [FML]: The mod container maven-artifact-3.5.3.jar appears to be missing an mcmod.info file
+[14:47:17] [Client thread/DEBUG] [FML]: Examining file java-objc-bridge-1.0.0.jar for potential mods
+[14:47:17] [Client thread/DEBUG] [FML]: The mod container java-objc-bridge-1.0.0.jar appears to be missing an mcmod.info file
+[14:47:17] [Client thread/DEBUG] [FML]: Examining file plexus-utils-3.1.0.jar for potential mods
+[14:47:17] [Client thread/DEBUG] [FML]: The mod container plexus-utils-3.1.0.jar appears to be missing an mcmod.info file
+[14:47:17] [Client thread/DEBUG] [FML]: Examining file iChunUtil-1.12.2-7.2.2.jar for potential mods
+[14:47:17] [Client thread/TRACE] [FML]: Located mcmod.info file in file iChunUtil-1.12.2-7.2.2.jar
+[14:47:17] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (me.ichun.mods.ichunutil.common.iChunUtil) - loading
+[14:47:17] [Client thread/TRACE] [FML]: Parsed dependency info for ichunutil: Requirements: [forge@[14.23.5.2781,99999.24.0.0)] After:[forge@[14.23.5.2781,99999.24.0.0)] Before:[]
+[14:47:17] [Client thread/DEBUG] [FML]: Examining file PortalGun-1.12.2-7.1.0.jar for potential mods
+[14:47:17] [Client thread/TRACE] [FML]: Located mcmod.info file in file PortalGun-1.12.2-7.1.0.jar
+[14:47:17] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (me.ichun.mods.portalgun.common.PortalGun) - loading
+[14:47:17] [Client thread/TRACE] [FML]: Parsed dependency info for portalgun: Requirements: [ichunutil@[7.2.0,8.0.0)] After:[ichunutil@[7.2.0,8.0.0)] Before:[]
+[14:47:17] [Client thread/DEBUG] [FML]: Examining file compileDummy.jar for potential mods
+[14:47:17] [Client thread/DEBUG] [FML]: The mod container compileDummy.jar appears to be missing an mcmod.info file
+[14:47:17] [Client thread/DEBUG] [FML]: Examining file providedDummy.jar for potential mods
+[14:47:17] [Client thread/DEBUG] [FML]: The mod container providedDummy.jar appears to be missing an mcmod.info file
+[14:47:17] [Client thread/DEBUG] [FML]: Examining directory start for potential mods
+[14:47:17] [Client thread/DEBUG] [FML]: No mcmod.info file found in directory start
+[14:47:17] [Client thread/TRACE] [FML]: Recursing into package net
+[14:47:17] [Client thread/TRACE] [FML]: Recursing into package net/minecraftforge
+[14:47:17] [Client thread/TRACE] [FML]: Recursing into package net/minecraftforge/gradle
+[14:47:17] [Client thread/TRACE] [FML]: Recursing into package net/minecraftforge/gradle/tweakers
+[14:47:17] [Client thread/DEBUG] [FML]: Examining file javaagent-shaded.jar for potential mods
+[14:47:17] [Client thread/DEBUG] [FML]: The mod container javaagent-shaded.jar appears to be missing an mcmod.info file
+[14:47:18] [Client thread/DEBUG] [FML]: Examining file chiselsandbits-14.33.jar for potential mods
+[14:47:18] [Client thread/TRACE] [FML]: Located mcmod.info file in file chiselsandbits-14.33.jar
+[14:47:18] [Client thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (mod.chiselsandbits.core.ChiselsAndBits) - loading
+[14:47:18] [Client thread/TRACE] [FML]: Parsed dependency info for chiselsandbits: Requirements: [] After:[] Before:[]
+[14:47:18] [Client thread/INFO] [FML]: Forge Mod Loader has identified 8 mods to load
+[14:47:18] [Client thread/DEBUG] [FML]: Found API mod.chiselsandbits.api (owned by chiselsandbits providing ChiselsAndBitsAPI) embedded in chiselsandbits
+[14:47:18] [Client thread/DEBUG] [FML]: Found API me.ichun.mods.ichunutil.api (owned by iChun providing iChunUtil API) embedded in ichunutil
+[14:47:18] [Client thread/DEBUG] [FML]: Creating API container dummy for API ChiselsAndBitsAPI: owner: chiselsandbits, dependents: []
+[14:47:18] [Client thread/DEBUG] [FML]: Creating API container dummy for API iChunUtil API: owner: iChun, dependents: [ichunutil]
+[14:47:18] [Client thread/TRACE] [FML]: Received a system property request ''
+[14:47:18] [Client thread/TRACE] [FML]: System property request managing the state of 0 mods
+[14:47:18] [Client thread/DEBUG] [FML]: After merging, found state information for 0 mods
+[14:47:18] [Client thread/DEBUG] [FML]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[14:47:18] [Client thread/DEBUG] [FML]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[14:47:18] [Client thread/DEBUG] [FML]: Enabling mod portalreloaded
+[14:47:18] [Client thread/DEBUG] [FML]: Enabling mod ichunutil
+[14:47:18] [Client thread/DEBUG] [FML]: Enabling mod portalgun
+[14:47:18] [Client thread/DEBUG] [FML]: Enabling mod chiselsandbits
+[14:47:18] [Client thread/TRACE] [FML]: Verifying mod requirements are satisfied
+[14:47:18] [Client thread/TRACE] [FML]: All mod requirements are satisfied
+[14:47:18] [Client thread/TRACE] [FML]: Sorting mods into an ordered list
+[14:47:18] [Client thread/TRACE] [FML]: Mod sorting completed successfully
+[14:47:18] [Client thread/DEBUG] [FML]: Mod sorting data
+[14:47:18] [Client thread/DEBUG] [FML]: 	iChunUtil API(API: iChunUtil API:1.2.0): iChunUtil-1.12.2-7.2.2.jar ()
+[14:47:18] [Client thread/DEBUG] [FML]: 	ichunutil(iChunUtil:7.2.2): iChunUtil-1.12.2-7.2.2.jar (required-after:forge@[14.23.5.2781,99999.24.0.0))
+[14:47:18] [Client thread/DEBUG] [FML]: 	portalgun(PortalGun:7.1.0): PortalGun-1.12.2-7.1.0.jar (required-after:ichunutil@[7.2.0,8.0.0))
+[14:47:18] [Client thread/DEBUG] [FML]: 	chiselsandbits(Chisels & Bits:14.33): chiselsandbits-14.33.jar ()
+[14:47:18] [Client thread/DEBUG] [FML]: 	portalreloaded(Portal Reloaded:0.1): bin (required-after:ichunutil; required-after:portalgun; after:chiselsandbits;)
+[14:47:18] [Client thread/DEBUG] [FML]: 	ChiselsAndBitsAPI(API: ChiselsAndBitsAPI:14.25.0): chiselsandbits-14.33.jar ()
+[14:47:18] [Client thread/DEBUG] [FML]: Loading @Config anotation data
+[14:47:18] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod minecraft
+[14:47:18] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod minecraft
+[14:47:18] [Client thread/DEBUG] [FML]: Bar Step: Construction - Minecraft took 0.011s
+[14:47:18] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod mcp
+[14:47:18] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod mcp
+[14:47:18] [Client thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Coder Pack took 0.004s
+[14:47:18] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod FML
+[14:47:18] [Client thread/TRACE] [FML]: Mod FML is using network checker : Invoking method checkModLists
+[14:47:18] [Client thread/TRACE] [FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[14:47:18] [Client thread/TRACE] [FML]: The mod FML accepts its own version (8.0.99.99)
+[14:47:18] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, portalreloaded, ichunutil, portalgun, chiselsandbits] at CLIENT
+[14:47:18] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, portalreloaded, ichunutil, portalgun, chiselsandbits] at SERVER
+[14:47:19] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod FML
+[14:47:19] [Client thread/DEBUG] [FML]: Bar Step: Construction - Forge Mod Loader took 1.238s
+[14:47:19] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod forge
+[14:47:19] [Client thread/DEBUG] [forge]: Loading Vanilla annotations: null
+[14:47:19] [Client thread/DEBUG] [forge]: Preloading CrashReport Classes
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$10
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$11
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$12
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$13
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$14
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$2
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$3
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$4
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$5
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$6
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$7
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$8
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/Minecraft$9
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$1
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$2
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$3
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/multiplayer/WorldClient$4
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$1
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$2
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$3
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/particle/ParticleManager$4
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$2
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$3
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/EntityRenderer$4
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderGlobal$1
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$1
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$2
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$3
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/RenderItem$4
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureAtlasSprite$1
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureManager$1
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$1
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$2
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/client/renderer/texture/TextureMap$3
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$1
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$2
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$3
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$4
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$5
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$6
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReport$7
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$1
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$2
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$3
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$4
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/crash/CrashReportCategory$5
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$2
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$3
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$4
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/Entity$5
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/EntityTracker$1
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/entity/player/InventoryPlayer$1
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/nbt/NBTTagCompound$1
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/nbt/NBTTagCompound$2
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/network/NetHandlerPlayServer$3
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/network/NetworkSystem$6
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/server/MinecraftServer$2
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/server/MinecraftServer$3
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/server/dedicated/DedicatedServer$3
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/server/dedicated/DedicatedServer$4
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/server/integrated/IntegratedServer$1
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/server/integrated/IntegratedServer$2
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$1
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/CommandBlockBaseLogic$2
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$1
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$2
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/tileentity/TileEntity$3
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$1
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$2
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$3
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$4
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/World$5
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/chunk/Chunk$1
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$1
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$2
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/gen/structure/MapGenStructure$3
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$10
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$2
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$3
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$4
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$5
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$6
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$7
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$8
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraft/world/storage/WorldInfo$9
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Alignment
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Column
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Row
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/client/SplashProgress$1
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/ICrashCallable
+[14:47:19] [Client thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/Loader$1
+[14:47:19] [Client thread/TRACE] [FML]: Mod forge is using network checker : No network checking performed
+[14:47:19] [Client thread/TRACE] [FML]: Testing mod forge to verify it accepts its own version in a remote connection
+[14:47:19] [Client thread/TRACE] [FML]: The mod forge accepts its own version (14.23.5.2847)
+[14:47:19] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into forge for type INSTANCE
+[14:47:19] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod forge
+[14:47:19] [Client thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Forge took 0.137s
+[14:47:19] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod ichunutil
+[14:47:20] [Client thread/TRACE] [FML]: Mod ichunutil is using network checker : Accepting range fml.messages.version.restriction.bounded.upperexclusive
+[14:47:20] [Client thread/TRACE] [FML]: Testing mod ichunutil to verify it accepts its own version in a remote connection
+[14:47:20] [Client thread/TRACE] [FML]: The mod ichunutil accepts its own version (7.2.2)
+[14:47:20] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into ichunutil
+[14:47:20] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for ichunutil
+[14:47:20] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into ichunutil for type INSTANCE
+[14:47:20] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod ichunutil
+[14:47:20] [Client thread/DEBUG] [FML]: Bar Step: Construction - iChunUtil took 0.438s
+[14:47:20] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod portalgun
+[14:47:20] [Client thread/TRACE] [FML]: Mod portalgun is using network checker : Accepting range fml.messages.version.restriction.bounded.upperexclusive
+[14:47:20] [Client thread/TRACE] [FML]: Testing mod portalgun to verify it accepts its own version in a remote connection
+[14:47:20] [Client thread/TRACE] [FML]: The mod portalgun accepts its own version (7.1.0)
+[14:47:20] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into portalgun
+[14:47:20] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for portalgun
+[14:47:20] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into portalgun for type INSTANCE
+[14:47:20] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod portalgun
+[14:47:20] [Client thread/DEBUG] [FML]: Bar Step: Construction - PortalGun took 0.185s
+[14:47:20] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod chiselsandbits
+[14:47:20] [Client thread/TRACE] [FML]: Mod chiselsandbits is using network checker : Accepting version 14.33
+[14:47:20] [Client thread/TRACE] [FML]: Testing mod chiselsandbits to verify it accepts its own version in a remote connection
+[14:47:20] [Client thread/TRACE] [FML]: The mod chiselsandbits accepts its own version (14.33)
+[14:47:20] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into chiselsandbits
+[14:47:20] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for chiselsandbits
+[14:47:20] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into chiselsandbits for type INSTANCE
+[14:47:20] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod chiselsandbits
+[14:47:20] [Client thread/DEBUG] [FML]: Bar Step: Construction - Chisels & Bits took 0.189s
+[14:47:20] [Client thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod portalreloaded
+[14:47:20] [Client thread/TRACE] [FML]: Mod portalreloaded is using network checker : Accepting version 0.1
+[14:47:20] [Client thread/TRACE] [FML]: Testing mod portalreloaded to verify it accepts its own version in a remote connection
+[14:47:20] [Client thread/TRACE] [FML]: The mod portalreloaded accepts its own version (0.1)
+[14:47:20] [Client thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into portalreloaded
+[14:47:20] [Client thread/INFO] [FML]: OBJLoader: Domain portalreloaded has been added.
+[14:47:20] [Client thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for portalreloaded
+[14:47:20] [Client thread/DEBUG] [FML]: Registering @EventBusSubscriber for com.cemi.portalreloaded.PortalReloaded$RegistrationHandler for mod portalreloaded
+[14:47:20] [Client thread/DEBUG] [FML]: Injected @EventBusSubscriber class com.cemi.portalreloaded.PortalReloaded$RegistrationHandler
+[14:47:20] [Client thread/DEBUG] [FML]: Attempting to inject @Config classes into portalreloaded for type INSTANCE
+[14:47:20] [Client thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod portalreloaded
+[14:47:20] [Client thread/DEBUG] [FML]: Bar Step: Construction - Portal Reloaded took 0.272s
+[14:47:20] [Client thread/DEBUG] [FML]: Bar Finished: Construction took 2.474s
+[14:47:20] [Client thread/DEBUG] [FML]: Mod signature data
+[14:47:20] [Client thread/DEBUG] [FML]:  	Valid Signatures:
+[14:47:20] [Client thread/DEBUG] [FML]: 		(4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8) ichunutil	(iChunUtil	7.2.2)	iChunUtil-1.12.2-7.2.2.jar
+[14:47:20] [Client thread/DEBUG] [FML]: 		(4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8) portalgun	(PortalGun	7.1.0)	PortalGun-1.12.2-7.1.0.jar
+[14:47:20] [Client thread/DEBUG] [FML]:  	Missing Signatures:
+[14:47:20] [Client thread/DEBUG] [FML]: 		minecraft	(Minecraft	1.12.2)	minecraft.jar
+[14:47:20] [Client thread/DEBUG] [FML]: 		mcp	(Minecraft Coder Pack	9.42)	minecraft.jar
+[14:47:20] [Client thread/DEBUG] [FML]: 		FML	(Forge Mod Loader	8.0.99.99)	forgeSrc-1.12.2-14.23.5.2847.jar
+[14:47:20] [Client thread/DEBUG] [FML]: 		forge	(Minecraft Forge	14.23.5.2847)	forgeSrc-1.12.2-14.23.5.2847.jar
+[14:47:20] [Client thread/DEBUG] [FML]: 		chiselsandbits	(Chisels & Bits	14.33)	chiselsandbits-14.33.jar
+[14:47:20] [Client thread/DEBUG] [FML]: 		portalreloaded	(Portal Reloaded	0.1)	bin
+[14:47:20] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Portal Reloaded, FMLFileResourcePack:iChunUtil, FMLFileResourcePack:PortalGun, FMLFileResourcePack:Chisels & Bits
+[14:47:20] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - Default took 0.005s
+[14:47:20] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.022s
+[14:47:20] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.026s
+[14:47:20] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Portal Reloaded took 0.004s
+[14:47:20] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:iChunUtil took 0.001s
+[14:47:20] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:PortalGun took 0.001s
+[14:47:20] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - FMLFileResourcePack:Chisels & Bits took 0.004s
+[14:47:21] [Client thread/DEBUG] [FML]: Bar Finished: Reloading - LanguageManager took 0.146s
+[14:47:21] [Client thread/DEBUG] [FML]: Bar Step: Loading Resources - Reloading listeners took 0.146s
+[14:47:21] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resources took 0.210s
+[14:47:21] [Client thread/DEBUG] [FML]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[14:47:21] [Client thread/DEBUG] [FML]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[14:47:21] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[14:47:21] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[14:47:21] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[14:47:21] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[14:47:21] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod minecraft
+[14:47:21] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod minecraft
+[14:47:21] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft took 0.000s
+[14:47:21] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod mcp
+[14:47:21] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod mcp
+[14:47:21] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.000s
+[14:47:21] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod FML
+[14:47:21] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod FML
+[14:47:21] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Forge Mod Loader took 0.000s
+[14:47:21] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod forge
+[14:47:21] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[14:47:21] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod forge
+[14:47:21] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Forge took 0.158s
+[14:47:21] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod ichunutil
+[14:47:21] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[14:47:21] [Client thread/TRACE] [FML]: Automatically registered mod ichunutil entity EntityBlock as ichunutil:entity_block
+[14:47:21] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod ichunutil
+[14:47:21] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - iChunUtil took 0.623s
+[14:47:21] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod portalgun
+[14:47:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `portalgun_tileentityportalmaster`, expected `portalgun`. This could be a intended override, but in most cases indicates a broken mod.
+[14:47:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `portalgun_tileentityportalbase`, expected `portalgun`. This could be a intended override, but in most cases indicates a broken mod.
+[14:47:22] [Client thread/TRACE] [FML]: Automatically registered mod portalgun entity EntityPortalProjectile as portalgun:entity_portal
+[14:47:22] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod portalgun
+[14:47:22] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - PortalGun took 0.309s
+[14:47:22] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod chiselsandbits
+[14:47:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mod.chiselsandbits.tileentitychiseled`, expected `chiselsandbits`. This could be a intended override, but in most cases indicates a broken mod.
+[14:47:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mod.chiselsandbits.tileentitychiseled.tesr`, expected `chiselsandbits`. This could be a intended override, but in most cases indicates a broken mod.
+[14:47:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mod.chiselsandbits.tileentitybittank`, expected `chiselsandbits`. This could be a intended override, but in most cases indicates a broken mod.
+[14:47:23] [Forge Version Check/DEBUG] [forge.VersionCheck]: [forge] Received version check data:
+{
+  "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.4.29",
+    "1.2.3-latest": "1.4.1.64",
+    "1.2.4-latest": "2.0.0.68",
+    "1.2.5-latest": "3.4.9.171",
+    "1.3.2-latest": "4.3.5.318",
+    "1.4.0-latest": "5.0.0.326",
+    "1.4.1-latest": "6.0.0.329",
+    "1.4.2-latest": "6.0.1.355",
+    "1.4.3-latest": "6.2.1.358",
+    "1.4.4-latest": "6.3.0.378",
+    "1.4.5-latest": "6.4.2.448",
+    "1.4.6-latest": "6.5.0.489",
+    "1.4.7-latest": "6.6.2.534",
+    "1.5-latest": "7.7.0.598",
+    "1.5.1-latest": "7.7.2.682",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.738",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.2-latest": "10.12.2.1161",
+    "1.7.2-recommended": "10.12.2.1161",
+    "1.7.10_pre4-latest": "10.12.2.1149",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-recommended": "10.13.4.1614",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.2318",
+    "1.9-latest": "12.16.1.1938",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2317",
+    "1.9.4-recommended": "12.17.0.2317",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2511",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2588",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2860",
+    "1.12.2-recommended": "14.23.5.2859",
+    "1.13.2-latest": "25.0.223",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.26",
+    "1.14.4-recommended": "28.2.26",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.57",
+    "1.15.2-recommended": "31.2.57",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.37",
+    "1.16.4-recommended": "35.1.4",
+    "1.16.5-latest": "36.2.35",
+    "1.16.5-recommended": "36.2.34",
+    "1.17.1-latest": "37.1.1",
+    "1.17.1-recommended": "37.1.1",
+    "1.18-latest": "38.0.17",
+    "1.18.1-latest": "39.1.2",
+    "1.18.1-recommended": "39.1.0",
+    "1.18.2-latest": "40.1.20",
+    "1.18.2-recommended": "40.1.0"
+  }
+}
+[14:47:23] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2859
+[14:47:23] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod chiselsandbits
+[14:47:23] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Chisels & Bits took 1.278s
+[14:47:23] [Client thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod portalreloaded
+[14:47:23] [Client thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod portalreloaded
+[14:47:23] [Client thread/DEBUG] [FML]: Bar Step: PreInitialization - Portal Reloaded took 0.014s
+[14:47:23] [Client thread/DEBUG] [FML]: Bar Finished: PreInitialization took 2.383s
+[14:47:23] [Client thread/INFO] [FML]: Applying holder lookups
+[14:47:23] [Client thread/INFO] [FML]: Holder lookups applied
+[14:47:23] [Client thread/INFO] [FML]: Applying holder lookups
+[14:47:23] [Client thread/INFO] [FML]: Holder lookups applied
+[14:47:23] [Client thread/INFO] [FML]: Applying holder lookups
+[14:47:23] [Client thread/INFO] [FML]: Holder lookups applied
+[14:47:23] [Client thread/INFO] [FML]: Applying holder lookups
+[14:47:23] [Client thread/INFO] [FML]: Holder lookups applied
+[14:47:23] [Client thread/INFO] [FML]: Injecting itemstacks
+[14:47:23] [Client thread/INFO] [FML]: Itemstack injection complete
+[14:47:23] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - TextureManager took 0.000s
+[14:47:27] [Client thread/DEBUG] [FML]: Bar Finished: Loading sounds took 3.178s
+[14:47:27] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - SoundHandler took 3.529s
+[14:47:27] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[14:47:27] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - FontRenderer took 0.004s
+[14:47:27] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - FontRenderer took 0.002s
+[14:47:27] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - GrassColorReloadListener took 0.014s
+[14:47:27] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - FoliageColorReloadListener took 0.013s
+[14:47:27] [Client thread/DEBUG] [FML]: Bar Step: Rendering Setup - GL Setup took 0.001s
+[14:47:27] [Client thread/DEBUG] [FML]: Bar Step: Rendering Setup - Loading Texture Map took 0.004s
+[14:47:27] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - B3DLoader took 0.000s
+[14:47:27] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - OBJLoader took 0.000s
+[14:47:27] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - ModelFluid$FluidLoader took 0.000s
+[14:47:27] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - ItemLayerModel$Loader took 0.000s
+[14:47:27] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - MultiLayerModel$Loader took 0.000s
+[14:47:27] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - ModelDynBucket$LoaderDynBucket took 0.000s
+[14:47:27] [Thread-6/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[14:47:27] [Thread-6/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:47:27] [Thread-6/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[14:47:28] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[14:47:31] [Client thread/DEBUG] [FML]: Bar Finished: ModelLoader: blocks took 3.536s
+[14:47:33] [Client thread/DEBUG] [FML]: Bar Finished: ModelLoader: items took 1.977s
+[14:47:33] [Client thread/INFO] [FML]: Max texture size: 16384
+[14:47:33] [Client thread/DEBUG] [FML]: Bar Finished: Texture stitching took 0.361s
+[14:47:33] [Client thread/DEBUG] [FML]: Bar Finished: Texture stitching took 0.025s
+[14:47:33] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[14:47:33] [Client thread/DEBUG] [FML]: Bar Finished: Texture creation took 0.031s
+[14:47:33] [Client thread/DEBUG] [FML]: Bar Finished: Texture mipmap and upload took 0.032s
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[14:47:34] [Client thread/DEBUG] [FML]: Bar Finished: ModelLoader: baking took 0.541s
+[14:47:34] [Client thread/ERROR] [FML]: Exception loading model for variant portalreloaded:indicator_light#inventory for item "portalreloaded:indicator_light", normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model portalreloaded:item/indicator_light with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: java.io.FileNotFoundException: portalreloaded:models/item/indicator_light.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[14:47:34] [Client thread/ERROR] [FML]: Exception loading model for variant portalreloaded:indicator_light#inventory for item "portalreloaded:indicator_light", blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model portalreloaded:indicator_light#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[14:47:34] [Client thread/ERROR] [FML]: Exception loading model for variant portalreloaded:dummy_floor_button#inventory for item "portalreloaded:dummy_floor_button", normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model portalreloaded:item/dummy_floor_button with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: java.io.FileNotFoundException: portalreloaded:models/item/dummy_floor_button.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[14:47:34] [Client thread/ERROR] [FML]: Exception loading model for variant portalreloaded:dummy_floor_button#inventory for item "portalreloaded:dummy_floor_button", blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model portalreloaded:dummy_floor_button#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[14:47:34] [Client thread/ERROR] [FML]: Exception loading blockstate for the variant portalreloaded:dummy_floor_button#inventory: 
+java.lang.Exception: Could not load model definition for variant portalreloaded:dummy_floor_button
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:269) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model portalreloaded:blockstates/dummy_floor_button.json
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:228) ~[ModelBakery.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 20 more
+Caused by: java.io.FileNotFoundException: portalreloaded:blockstates/dummy_floor_button.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:104) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:79) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:221) ~[ModelBakery.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
+	... 20 more
+[14:47:34] [Client thread/ERROR] [FML]: Exception loading model for variant portalreloaded:dummy_floor_button#powered=true for blockstate "portalreloaded:dummy_floor_button[powered=true]"
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model portalreloaded:dummy_floor_button#powered=true with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 21 more
+[14:47:34] [Client thread/ERROR] [FML]: Exception loading model for variant chiselsandbits:debug#inventory for item "chiselsandbits:debug", normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model chiselsandbits:item/debug with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: java.io.FileNotFoundException: chiselsandbits:models/item/debug.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[14:47:34] [Client thread/ERROR] [FML]: Exception loading model for variant chiselsandbits:debug#inventory for item "chiselsandbits:debug", blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model chiselsandbits:debug#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[14:47:34] [Client thread/ERROR] [FML]: Exception loading model for variant portalreloaded:fizzler_field_block#inventory for item "portalreloaded:fizzler_field_block", normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model portalreloaded:item/fizzler_field_block with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: java.io.FileNotFoundException: portalreloaded:models/item/fizzler_field_block.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[14:47:34] [Client thread/ERROR] [FML]: Exception loading model for variant portalreloaded:fizzler_field_block#inventory for item "portalreloaded:fizzler_field_block", blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model portalreloaded:fizzler_field_block#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[14:47:34] [Client thread/FATAL] [FML]: Suppressed additional 0 model loading errors for domain portalreloaded
+[14:47:34] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - ModelManager took 6.806s
+[14:47:34] [Client thread/DEBUG] [FML]: Bar Step: Rendering Setup - Loading Model Manager took 6.857s
+[14:47:35] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - RenderItem took 0.013s
+[14:47:35] [Client thread/DEBUG] [FML]: Bar Step: Rendering Setup - Loading Item Renderer took 0.859s
+[14:47:35] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - EntityRenderer took 0.000s
+[14:47:35] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - BlockRendererDispatcher took 0.000s
+[14:47:35] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - RenderGlobal took 0.000s
+[14:47:36] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - SearchTreeManager took 0.351s
+[14:47:36] [Client thread/DEBUG] [FML]: Bar Step: Rendering Setup - Loading Entity Renderer took 1.489s
+[14:47:36] [Client thread/DEBUG] [FML]: Bar Finished: Rendering Setup took 9.210s
+[14:47:36] [Client thread/INFO] [FML]: Applying holder lookups
+[14:47:36] [Client thread/INFO] [FML]: Holder lookups applied
+[14:47:36] [Client thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod minecraft
+[14:47:36] [Client thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod minecraft
+[14:47:36] [Client thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft took 0.001s
+[14:47:36] [Client thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod mcp
+[14:47:36] [Client thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod mcp
+[14:47:36] [Client thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft Coder Pack took 0.001s
+[14:47:36] [Client thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod FML
+[14:47:36] [Client thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod FML
+[14:47:36] [Client thread/DEBUG] [FML]: Bar Step: Initialization - Forge Mod Loader took 0.000s
+[14:47:36] [Client thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod forge
+[14:47:36] [Client thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod forge
+[14:47:36] [Client thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft Forge took 0.001s
+[14:47:36] [Client thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod ichunutil
+[14:47:36] [Client thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod ichunutil
+[14:47:36] [Client thread/DEBUG] [FML]: Bar Step: Initialization - iChunUtil took 0.011s
+[14:47:36] [Client thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod portalgun
+[14:47:36] [Client thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod portalgun
+[14:47:36] [Client thread/DEBUG] [FML]: Bar Step: Initialization - PortalGun took 0.001s
+[14:47:36] [Client thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod chiselsandbits
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod chiselsandbits
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: Initialization - Chisels & Bits took 0.172s
+[14:47:37] [Client thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod portalreloaded
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod portalreloaded
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: Initialization - Portal Reloaded took 0.005s
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Finished: Initialization took 0.191s
+[14:47:37] [Client thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod minecraft
+[14:47:37] [Client thread/TRACE] [FML]: Sending event IMCEvent to mod minecraft
+[14:47:37] [Client thread/TRACE] [FML]: Sent event IMCEvent to mod minecraft
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft took 0.000s
+[14:47:37] [Client thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod mcp
+[14:47:37] [Client thread/TRACE] [FML]: Sending event IMCEvent to mod mcp
+[14:47:37] [Client thread/TRACE] [FML]: Sent event IMCEvent to mod mcp
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.000s
+[14:47:37] [Client thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod FML
+[14:47:37] [Client thread/TRACE] [FML]: Sending event IMCEvent to mod FML
+[14:47:37] [Client thread/TRACE] [FML]: Sent event IMCEvent to mod FML
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.000s
+[14:47:37] [Client thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod forge
+[14:47:37] [Client thread/TRACE] [FML]: Sending event IMCEvent to mod forge
+[14:47:37] [Client thread/TRACE] [FML]: Sent event IMCEvent to mod forge
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.000s
+[14:47:37] [Client thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod ichunutil
+[14:47:37] [Client thread/TRACE] [FML]: Sending event IMCEvent to mod ichunutil
+[14:47:37] [Client thread/TRACE] [FML]: Sent event IMCEvent to mod ichunutil
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - iChunUtil took 0.000s
+[14:47:37] [Client thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod portalgun
+[14:47:37] [Client thread/TRACE] [FML]: Sending event IMCEvent to mod portalgun
+[14:47:37] [Client thread/TRACE] [FML]: Sent event IMCEvent to mod portalgun
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - PortalGun took 0.001s
+[14:47:37] [Client thread/TRACE] [FML]: Attempting to deliver 25 IMC messages to mod chiselsandbits
+[14:47:37] [Client thread/TRACE] [FML]: Sending event IMCEvent to mod chiselsandbits
+[14:47:37] [Client thread/TRACE] [FML]: Sent event IMCEvent to mod chiselsandbits
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Chisels & Bits took 0.019s
+[14:47:37] [Client thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod portalreloaded
+[14:47:37] [Client thread/TRACE] [FML]: Sending event IMCEvent to mod portalreloaded
+[14:47:37] [Client thread/TRACE] [FML]: Sent event IMCEvent to mod portalreloaded
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Portal Reloaded took 0.000s
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Finished: InterModComms$IMC took 0.021s
+[14:47:37] [Client thread/INFO] [FML]: Injecting itemstacks
+[14:47:37] [Client thread/INFO] [FML]: Itemstack injection complete
+[14:47:37] [Client thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod minecraft
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod minecraft
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft took 0.000s
+[14:47:37] [Client thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod mcp
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod mcp
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000s
+[14:47:37] [Client thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod FML
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod FML
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s
+[14:47:37] [Client thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod forge
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod forge
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft Forge took 0.011s
+[14:47:37] [Client thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod ichunutil
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod ichunutil
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - iChunUtil took 0.003s
+[14:47:37] [Client thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod portalgun
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod portalgun
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - PortalGun took 0.000s
+[14:47:37] [Client thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod chiselsandbits
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod chiselsandbits
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - Chisels & Bits took 0.070s
+[14:47:37] [Client thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod portalreloaded
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod portalreloaded
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: PostInitialization - Portal Reloaded took 0.000s
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Finished: PostInitialization took 0.086s
+[14:47:37] [Client thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod minecraft
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod minecraft
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft took 0.000s
+[14:47:37] [Client thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod mcp
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod mcp
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.000s
+[14:47:37] [Client thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod FML
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod FML
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - Forge Mod Loader took 0.000s
+[14:47:37] [Client thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod forge
+[14:47:37] [Client thread/DEBUG] [FML]: Forge RecipeSorter Baking:
+[14:47:37] [Client thread/DEBUG] [FML]:   16: RecipeEntry("Before", UNKNOWN, )
+[14:47:37] [Client thread/DEBUG] [FML]:   15: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[14:47:37] [Client thread/DEBUG] [FML]:   14: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[14:47:37] [Client thread/DEBUG] [FML]:   13: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[14:47:37] [Client thread/DEBUG] [FML]:   12: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[14:47:37] [Client thread/DEBUG] [FML]:   11: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless
+[14:47:37] [Client thread/DEBUG] [FML]:   10: RecipeEntry("minecraft:shield_deco", SHAPELESS, net.minecraft.item.crafting.ShieldRecipes$Decoration) After: minecraft:shapeless
+[14:47:37] [Client thread/DEBUG] [FML]:   9: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[14:47:37] [Client thread/DEBUG] [FML]:   8: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[14:47:37] [Client thread/DEBUG] [FML]:   7: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless
+[14:47:37] [Client thread/DEBUG] [FML]:   6: RecipeEntry("minecraft:tippedarrow", SHAPELESS, net.minecraft.item.crafting.RecipeTippedArrow) After: minecraft:shapeless
+[14:47:37] [Client thread/DEBUG] [FML]:   5: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[14:47:37] [Client thread/DEBUG] [FML]:   4: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[14:47:37] [Client thread/DEBUG] [FML]:   3: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless
+[14:47:37] [Client thread/DEBUG] [FML]:   2: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[14:47:37] [Client thread/DEBUG] [FML]:   1: RecipeEntry("After", UNKNOWN, )
+[14:47:37] [Client thread/DEBUG] [FML]: Sorting recipes
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod forge
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft Forge took 0.010s
+[14:47:37] [Client thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod ichunutil
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod ichunutil
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - iChunUtil took 0.000s
+[14:47:37] [Client thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod portalgun
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod portalgun
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - PortalGun took 0.000s
+[14:47:37] [Client thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod chiselsandbits
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod chiselsandbits
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - Chisels & Bits took 0.000s
+[14:47:37] [Client thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod portalreloaded
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod portalreloaded
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: LoadComplete - Portal Reloaded took 0.000s
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Finished: LoadComplete took 0.011s
+[14:47:37] [Client thread/DEBUG] [FML]: Freezing registries
+[14:47:37] [Client thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod minecraft
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod minecraft
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft took 0.000s
+[14:47:37] [Client thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod mcp
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod mcp
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[14:47:37] [Client thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod FML
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod FML
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[14:47:37] [Client thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod forge
+[14:47:37] [iChunUtil Online Resource Thread/WARN] [iChunUtil]: Error retrieving iChunUtil patron list.
+[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: java.io.FileNotFoundException: https://raw.githubusercontent.com/iChun/iChunUtil/master/src/main/resources/assets/ichunutil/mod/patrons.json
+[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1898)
+[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:92)
+[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1492)
+[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1490)
+[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at java.security.AccessController.doPrivileged(Native Method)
+[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784)
+[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1489)
+[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at java.net.URL.openStream(URL.java:1093)
+[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at me.ichun.mods.ichunutil.common.thread.ThreadGetResources.run(ThreadGetResources.java:38)
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod forge
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Forge took 0.454s
+[14:47:37] [Client thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod ichunutil
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod ichunutil
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - iChunUtil took 0.000s
+[14:47:37] [Client thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod portalgun
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod portalgun
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - PortalGun took 0.000s
+[14:47:37] [Client thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod chiselsandbits
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod chiselsandbits
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - Chisels & Bits took 0.072s
+[14:47:37] [Client thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod portalreloaded
+[14:47:37] [Client thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod portalreloaded
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Step: ModIdMapping - Portal Reloaded took 0.002s
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Finished: ModIdMapping took 0.529s
+[14:47:37] [Client thread/DEBUG] [FML]: All registries frozen
+[14:47:37] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 8 mods
+[14:47:37] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[14:47:37] [Client thread/DEBUG] [FML]: Bar Finished: Loading took 22.540s
+[14:47:37] [iChunUtil Online Resource Thread/WARN] [iChunUtil]: Error retrieving mods versions list.
+[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: java.io.FileNotFoundException: https://raw.githubusercontent.com/iChun/iChunUtil/master/src/main/resources/assets/ichunutil/mod/versions.json
+[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1898)
+[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:92)
+[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1492)
+[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1490)
+[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at java.security.AccessController.doPrivileged(Native Method)
+[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784)
+[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1489)
+[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at java.net.URL.openStream(URL.java:1093)
+[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at me.ichun.mods.ichunutil.common.thread.ThreadGetResources.run(ThreadGetResources.java:67)
+[14:47:37] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[14:47:38] [Client thread/DEBUG] [FML]: Bar Finished: Loading Resource - CloudRenderer took 0.007s
+[14:47:38] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[14:48:02] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[14:48:02] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[14:48:03] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

@@ -1,0 +1,22 @@
+{
+    "multipart": [
+        {   "when": { "facing": "north" },
+            "apply": { "model": "portalreloaded:glass_pane" }
+        },
+        {   "when": { "facing": "east" },
+            "apply": { "model": "portalreloaded:glass_pane", "y": 90 }
+        },
+        {   "when": { "facing": "south" },
+            "apply": { "model": "portalreloaded:glass_pane", "y": 180 }
+        },
+        {   "when": { "facing": "west" },
+            "apply": { "model": "portalreloaded:glass_pane", "y": 270 }
+        },
+        {   "when": { "facing": "down" },
+            "apply": { "model": "portalreloaded:glass_pane", "x": 90 }
+        },
+        {   "when": { "facing": "up" },
+            "apply": { "model": "portalreloaded:glass_pane", "x": 270 }
+        }
+    ]
+}

@@ -1,0 +1,166 @@
+[12:03:50] [main/INFO] [GradleStart]: Extra: []
+[12:03:50] [main/INFO] [GradleStart]: Found and added coremod: com.zeitheron.hammercore.asm.HCASM
+[12:03:50] [main/INFO] [GradleStart]: Running with arguments: [--tweakClass, net.minecraftforge.fml.common.launcher.FMLServerTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[12:03:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[12:03:50] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[12:03:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[12:03:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[12:03:51] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
+[12:03:51] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_262, running on Windows 10:amd64:10.0, installed at C:\Program Files\AdoptOpenJDK\jdk-8.0.262.10-hotspot\jre
+[12:03:51] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[12:03:51] [main/ERROR] [FML]: Full: C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[12:03:51] [main/ERROR] [FML]: Trimmed: c:/users/macie/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[12:03:51] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[12:03:51] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[12:03:51] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[12:03:51] [main/INFO] [FML]: Found a command line coremod : com.zeitheron.hammercore.asm.HCASM
+[12:03:51] [main/INFO] [FML]: Searching G:\Minecraft-modding\Forge\PortalReloaded_1.12.2\run\.\mods for mods
+[12:03:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[12:03:51] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[12:03:51] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[12:03:51] [main/INFO] [GradleStart]: Injecting location in coremod com.zeitheron.hammercore.asm.HCASM
+[12:03:51] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:03:51] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[12:03:51] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[12:03:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:03:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:03:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:03:52] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[12:03:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:03:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:03:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[12:03:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[12:03:53] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
+[12:03:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[12:03:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[12:03:53] [main/INFO] [Hammer Core [ASM]]: Transforming net.minecraft.entity.EntityLivingBase (net.minecraft.entity.EntityLivingBase)...
+[12:03:53] [main/INFO] [Hammer Core [ASM]]:   -Patching EntityLivingBase
+[12:03:53] [main/INFO] [Hammer Core [ASM]]:     -Modified method 'onItemUseFinish': added event call.
+[12:03:53] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[12:03:53] [main/INFO] [Hammer Core [ASM]]: Transforming net.minecraft.tileentity.TileEntityLockableLoot (net.minecraft.tileentity.TileEntityLockableLoot)...
+[12:03:53] [main/INFO] [Hammer Core [ASM]]:   -Patching TileEntityLockableLoot
+[12:03:53] [main/INFO] [Hammer Core [ASM]]:     -Modified method 'fillWithLoot': added 'withPlayer(player)' after 'withLuck(player.getLuck())'
+[12:03:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[12:03:56] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
+[12:03:56] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[12:03:56] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[12:03:56] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[12:03:57] [Server thread/INFO] [FML]: Searching G:\Minecraft-modding\Forge\PortalReloaded_1.12.2\run\.\mods for mods
+[12:03:58] [Server thread/INFO] [FML]: Forge Mod Loader has identified 9 mods to load
+[12:03:58] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[12:03:58] [Server thread/WARN] [FML]: Missing English translation for portalreloaded: /G:/Minecraft-modding/Forge/PortalReloaded_1.12.2/bin/assets/portalreloaded/lang/en_us.lang
+[12:03:58] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, portalreloaded, ichunutil, portalgun, portalstuff, hammercore] at CLIENT
+[12:03:58] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, portalreloaded, ichunutil, portalgun, portalstuff, hammercore] at SERVER
+[12:03:59] [Server thread/INFO] [Hammer Core [ASM]]: Transforming net.minecraftforge.client.ForgeHooksClient (net.minecraftforge.client.ForgeHooksClient)...
+[12:03:59] [Server thread/INFO] [Hammer Core [ASM]]:   -Patching ForgeHooksClient
+[12:03:59] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[12:03:59] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[12:03:59] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[12:03:59] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[12:03:59] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[12:03:59] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[12:04:00] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `portalgun_tileentityportalmaster`, expected `portalgun`. This could be a intended override, but in most cases indicates a broken mod.
+[12:04:00] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `portalgun_tileentityportalbase`, expected `portalgun`. This could be a intended override, but in most cases indicates a broken mod.
+[12:04:00] [Server thread/INFO] [HammerCore]: Added "com.zeitheron.hammercore.cfg.HammerCoreConfigs" to Hammer Core Simple Configs.
+[12:04:00] [Server thread/INFO] [HammerCore]: Added "com.zeitheron.portalstuff.cfg.ConfigsPS" to Hammer Core Simple Configs.
+[12:04:00] [Server thread/INFO] [HammerCore]: Added "com.zeitheron.hammercore.world.gen.WorldRetroGen@29e09bdb" to MCF Event Bus.
+[12:04:00] [Server thread/INFO] [HammerCore]: Added "com.zeitheron.hammercore.world.WorldGenHelper@7bdf1f50" to MCF Event Bus.
+[12:04:00] [Server thread/INFO] [HammerCore]: Added "com.zeitheron.portalstuff.events.TickEvents@76a3148" to MCF Event Bus.
+[12:04:00] [Server thread/INFO] [HammerCore]: Added "com.zeitheron.hammercore.internal.chunk.ChunkloadAPI@312330a9" to MCF Event Bus.
+[12:04:00] [Server thread/INFO] [HammerCore]: Added "com.zeitheron.hammercore.event.vanilla.SpawnEnderDragonEggHandler@64331b3b" to MCF Event Bus.
+[12:04:00] [Server thread/INFO] [HammerCore]: Added "com.zeitheron.hammercore.event.vanilla.TileHandler@1f507463" to MCF Event Bus.
+[12:04:00] [Server thread/INFO] [HammerCore]: Added "com.zeitheron.hammercore.specials.Zeitheron.ZeitheronGlobEvents@e73e400" to MCF Event Bus.
+[12:04:00] [Server thread/INFO] [HammerCore]: Added "com.zeitheron.hammercore.internal.variables.VarEvents@358610d4" to MCF Event Bus.
+[12:04:00] [Server thread/INFO] [HammerCore]: Added "com.zeitheron.hammercore.world.data.PerChunkDataManager@2cb56b64" to MCF Event Bus.
+[12:04:00] [Server thread/INFO] [HammerCore]: Added "com.zeitheron.portalstuff.virtual.portalplacers.PortalPlacerListManager@5ee0263b" to MCF Event Bus.
+[12:04:00] [Server thread/INFO] [HammerCore]: Added "com.zeitheron.hammercore.HammerCore@666666" to MCF Event Bus.
+[12:04:00] [Server thread/INFO] [HammerCore]: Added 11 object to MCF Event Bus.
+[12:04:00] [Server thread/INFO] [portalstuff]: Pre-Initialization Phase Started.
+[12:04:00] [Server thread/INFO] [portalstuff]: Registered new Sound Object (Event) (portalstuff:fizzler_start)!
+[12:04:00] [Server thread/INFO] [portalstuff]: Registered new Sound Object (Event) (portalstuff:fizzler_stop)!
+[12:04:00] [Server thread/INFO] [portalstuff]: Registered new Sound Object (Event) (portalstuff:laser_hurt_mob)!
+[12:04:00] [Server thread/INFO] [portalstuff]: Registered new Sound Object (Event) (portalstuff:fizzler_dispose)!
+[12:04:00] [Server thread/INFO] [portalstuff]: Registered new Sound Object (Event) (portalstuff:laser_activation)!
+[12:04:00] [Server thread/INFO] [portalstuff]: Registered new Sound Object (Event) (portalstuff:laser_node_power_off)!
+[12:04:00] [Server thread/INFO] [portalstuff]: Registered new Sound Object (Event) (portalstuff:laser_node_power_on)!
+[12:04:00] [Server thread/INFO] [portalstuff]: Registered new Sound Object (Event) (portalstuff:ctx_editor.open)!
+[12:04:00] [Server thread/INFO] [portalstuff]: Registered new Sound Object (Event) (portalstuff:ctx_editor.close)!
+[12:04:00] [Server thread/INFO] [portalstuff]: Registered new Sound Object (Event) (portalstuff:ctx_editor.select)!
+[12:04:00] [Server thread/INFO] [portalstuff]: Registered new Sound Object (Event) (portalstuff:ctx_editor.toggle)!
+[12:04:00] [Server thread/INFO] [portalstuff]: Registered new Sound Object (Event) (portalstuff:footsteps.lightbridge)!
+[12:04:00] [Server thread/INFO] [portalstuff]: Registered new Sound Object (Event) (portalstuff:destruction.lightbridge_elec)!
+[12:04:00] [Server thread/INFO] [portalstuff]: Registered new Sound Object (Event) (portalstuff:tbeam.start)!
+[12:04:00] [Server thread/INFO] [portalstuff]: Registered new Sound Object (Event) (portalstuff:tbeam.tick)!
+[12:04:00] [Server thread/INFO] [portalstuff]: Registered new Sound Object (Event) (portalstuff:tbeam.middle)!
+[12:04:00] [Server thread/INFO] [portalstuff]: Registered new Sound Object (Event) (portalstuff:tbeam.stop)!
+[12:04:00] [Server thread/INFO] [portalstuff]: Registered new Sound Object (Event) (portalstuff:floor_button_down)!
+[12:04:00] [Server thread/INFO] [portalstuff]: Registered new Sound Object (Event) (portalstuff:floor_button_up)!
+[12:04:01] [Server thread/INFO] [portalstuff]: Pre-Initialization Phase Ended in 360 ms
+[12:04:01] [Server thread/INFO] [FML]: Applying holder lookups
+[12:04:01] [Server thread/INFO] [FML]: Holder lookups applied
+[12:04:01] [Server thread/INFO] [FML]: Applying holder lookups
+[12:04:01] [Server thread/INFO] [FML]: Holder lookups applied
+[12:04:01] [Server thread/INFO] [FML]: Applying holder lookups
+[12:04:01] [Server thread/INFO] [FML]: Holder lookups applied
+[12:04:01] [Server thread/INFO] [FML]: Applying holder lookups
+[12:04:01] [Server thread/INFO] [FML]: Holder lookups applied
+[12:04:01] [Server thread/INFO] [FML]: Injecting itemstacks
+[12:04:01] [Server thread/INFO] [FML]: Itemstack injection complete
+[12:04:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[12:04:01] [Server thread/WARN] [net.minecraft.server.dedicated.PropertyManager]: server.properties does not exist
+[12:04:01] [Server thread/INFO] [net.minecraft.server.dedicated.PropertyManager]: Generating new properties file
+[12:04:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[12:04:01] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2854
+[12:04:01] [Forge Version Check/INFO] [forge.VersionCheck]: [hammercore] Starting version check at http://dccg.herokuapp.com/api/fmluc/247401
+[12:04:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[12:04:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[12:04:01] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[12:04:01] [Forge Version Check/INFO] [forge.VersionCheck]: [hammercore] Found status: OUTDATED Target: 2.0.6.26
+[12:04:02] [Server thread/INFO] [FML]: Applying holder lookups
+[12:04:02] [Server thread/INFO] [FML]: Holder lookups applied
+[12:04:02] [Server thread/INFO] [portalreloaded]: PORTAL BLOCK >> portalgun:block_portal
+[12:04:02] [Server thread/INFO] [portalstuff]: Initialization Phase Started.
+[12:04:02] [Server thread/INFO] [portalstuff]: Initialization Phase Ended in 15 ms
+[12:04:02] [Server thread/INFO] [FML]: Injecting itemstacks
+[12:04:02] [Server thread/INFO] [FML]: Itemstack injection complete
+[12:04:02] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 9 mods
+[12:04:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[12:04:02] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@6295ae28)
+[12:04:03] [iChunUtil Online Resource Thread/WARN] [iChunUtil]: Error retrieving mods versions list.
+[12:04:03] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: java.io.FileNotFoundException: https://raw.githubusercontent.com/iChun/iChunUtil/master/src/main/resources/assets/ichunutil/mod/versions.json
+[12:04:03] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1896)
+[12:04:03] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:92)
+[12:04:03] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1490)
+[12:04:03] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1488)
+[12:04:03] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at java.security.AccessController.doPrivileged(Native Method)
+[12:04:03] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784)
+[12:04:03] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1487)
+[12:04:03] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[12:04:03] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at java.net.URL.openStream(URL.java:1068)
+[12:04:03] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at me.ichun.mods.ichunutil.common.thread.ThreadGetResources.run(ThreadGetResources.java:67)
+[12:04:03] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[12:04:04] [Thread-8/WARN] [HammerCore]: HammerCore custom data file not found!
+[12:04:04] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@6295ae28)
+[12:04:04] [Thread-9/WARN] [HammerCore]: HammerCore custom data file not found!
+[12:04:04] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@6295ae28)
+[12:04:04] [Thread-10/WARN] [HammerCore]: HammerCore custom data file not found!
+[12:04:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[12:04:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 6%
+[12:04:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 11%
+[12:04:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 21%
+[12:04:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 26%
+[12:04:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 30%
+[12:04:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 36%
+[12:04:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 45%
+[12:04:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 54%
+[12:04:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 61%
+[12:04:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 70%
+[12:04:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 78%
+[12:04:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 87%
+[12:04:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 96%
+[12:04:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (15,257s)! For help, type "help" or "?"
+[12:04:18] [Server thread/INFO] [HammerCore]: Registering raytrace plugin: com.zeitheron.hammercore.internal.blocks.multipart.HammerCoreRaytracePlugin ...
+[12:04:18] [Server thread/INFO] [HammerCore]: Registered raytrace  plugin: com.zeitheron.hammercore.internal.blocks.multipart.HammerCoreRaytracePlugin in 0 ms
+[12:04:18] [Server thread/INFO] [HammerCore]: Injecting GameRules...
+[12:04:18] [Server thread/INFO] [FML]: Unloading dimension -1
+[12:04:18] [Server thread/INFO] [FML]: Unloading dimension 1

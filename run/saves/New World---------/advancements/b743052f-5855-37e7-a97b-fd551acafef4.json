@@ -1,0 +1,14 @@
+{
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2022-05-15 17:06:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2022-05-15 13:00:43 +0200"
+    },
+    "done": false
+  }
+}

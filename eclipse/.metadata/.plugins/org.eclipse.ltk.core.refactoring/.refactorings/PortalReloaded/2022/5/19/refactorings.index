@@ -1,0 +1,25 @@
+1652183946519	Delete element
+1652183948443	Delete element
+1652394952683	Rename package 'com.cemi.portalreloaded.client.render'
+1652394957880	Delete element
+1652394968154	Rename package 'com.cemi.portalreloaded.client.render'
+1652394972483	Delete element
+1652394985497	Rename package 'com.cemi.portalreloaded.client.render'
+1652395528978	Delete element
+1652396019856	Rename local variable 'i'
+1652396034617	Rename local variable 'j'
+1652396038964	Rename local variable 'k'
+1652396054768	Rename local variable 'f1'
+1652396063836	Rename local variable 'f2'
+1652396068986	Rename local variable 'f3'
+1652396271150	Rename local variable 'color'
+1652439664193	Rename type 'BlockFloorButton'
+1652440345436	Rename local variable 'i'
+1652440726790	Rename local variable 'j'
+1652446863721	Rename type 'TileEntityLightIndicator'
+1652447600337	Delete element
+1652448040680	Rename field 'blocksNeedingUpdate'
+1652452330747	Rename local variable 'o'
+1652452334964	Rename local variable 'o'
+1652463906895	Rename method 'updateSurroundingRedstone'
+1652623304350	Rename field 'REDSTONE_WIRE_AABB'

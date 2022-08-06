@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+G:\Minecraft-modding\Forge\PortalReloaded_1.12.2\eclipse\.metadata\.plugins\org.eclipse.jdt.core
+1964369970.index
+2328269416.index
+1865797976.index
+604493918.index

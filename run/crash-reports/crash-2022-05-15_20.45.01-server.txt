@@ -1,0 +1,124 @@
+---- Minecraft Crash Report ----
+// You're mean.
+
+Time: 5/15/22 8:45 PM
+Description: Colliding entity with block
+
+java.lang.IllegalArgumentException: Cannot get property PropertyBool{name=powered, clazz=class java.lang.Boolean, values=[true, false]} as it does not exist in BlockStateContainer{block=portalreloaded:dummy_floor_button, properties=[]}
+	at net.minecraft.block.state.BlockStateContainer$StateImplementation.getValue(BlockStateContainer.java:204)
+	at com.cemi.portalreloaded.block.BlockFloorButton.getRedstoneStrength(BlockFloorButton.java:84)
+	at com.cemi.portalreloaded.block.BlockFloorButtonBase.onEntityCollidedWithBlock(BlockFloorButtonBase.java:130)
+	at com.cemi.portalreloaded.block.BlockDummyFloorButton.onEntityCollidedWithBlock(BlockDummyFloorButton.java:67)
+	at net.minecraft.entity.Entity.doBlockCollisions(Entity.java:1154)
+	at net.minecraft.entity.Entity.move(Entity.java:1071)
+	at net.minecraft.entity.EntityLivingBase.travel(EntityLivingBase.java:2172)
+	at net.minecraft.entity.player.EntityPlayer.travel(EntityPlayer.java:1976)
+	at net.minecraft.entity.EntityLivingBase.onLivingUpdate(EntityLivingBase.java:2623)
+	at net.minecraft.entity.player.EntityPlayer.onLivingUpdate(EntityPlayer.java:577)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:2405)
+	at net.minecraft.entity.player.EntityPlayer.onUpdate(EntityPlayer.java:272)
+	at net.minecraft.entity.player.EntityPlayerMP.onUpdateEntity(EntityPlayerMP.java:423)
+	at net.minecraft.network.NetHandlerPlayServer.update(NetHandlerPlayServer.java:185)
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.update(NetworkDispatcher.java:212)
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:307)
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:197)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:865)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraft.block.state.BlockStateContainer$StateImplementation.getValue(BlockStateContainer.java:204)
+	at com.cemi.portalreloaded.block.BlockFloorButton.getRedstoneStrength(BlockFloorButton.java:84)
+	at com.cemi.portalreloaded.block.BlockFloorButtonBase.onEntityCollidedWithBlock(BlockFloorButtonBase.java:130)
+	at com.cemi.portalreloaded.block.BlockDummyFloorButton.onEntityCollidedWithBlock(BlockDummyFloorButton.java:67)
+
+-- Block being collided with --
+Details:
+	Block: portalreloaded:dummy_floor_button
+	Block location: World: (-36,4,4), Chunk: (at 12,0,4 in -3,0; contains blocks -48,0,0 to -33,255,15), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+Stacktrace:
+	at net.minecraft.entity.Entity.doBlockCollisions(Entity.java:1154)
+
+-- Entity being checked for collision --
+Details:
+	Entity Type: null (net.minecraft.entity.player.EntityPlayerMP)
+	Entity ID: 17
+	Entity Name: Player234
+	Entity's Exact location: -35.10, 4.00, 4.56
+	Entity's Block location: World: (-36,4,4), Chunk: (at 12,0,4 in -3,0; contains blocks -48,0,0 to -33,255,15), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Entity's Momentum: 0.00, 0.00, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.entity.Entity.move(Entity.java:1071)
+	at net.minecraft.entity.EntityLivingBase.travel(EntityLivingBase.java:2172)
+	at net.minecraft.entity.player.EntityPlayer.travel(EntityPlayer.java:1976)
+	at net.minecraft.entity.EntityLivingBase.onLivingUpdate(EntityLivingBase.java:2623)
+	at net.minecraft.entity.player.EntityPlayer.onLivingUpdate(EntityPlayer.java:577)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:2405)
+	at net.minecraft.entity.player.EntityPlayer.onUpdate(EntityPlayer.java:272)
+
+-- Player being ticked --
+Details:
+	Entity Type: null (net.minecraft.entity.player.EntityPlayerMP)
+	Entity ID: 17
+	Entity Name: Player234
+	Entity's Exact location: -35.10, 4.00, 4.56
+	Entity's Block location: World: (-36,4,4), Chunk: (at 12,0,4 in -3,0; contains blocks -48,0,0 to -33,255,15), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Entity's Momentum: 0.00, 0.00, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.entity.player.EntityPlayerMP.onUpdateEntity(EntityPlayerMP.java:423)
+	at net.minecraft.network.NetHandlerPlayServer.update(NetHandlerPlayServer.java:185)
+	at net.minecraftforge.fml.common.network.handshake.NetworkDispatcher$1.update(NetworkDispatcher.java:212)
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:307)
+
+-- Ticking connection --
+Details:
+	Connection: net.minecraft.network.NetworkManager@5ee80902
+Stacktrace:
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:197)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:865)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592)
+	at java.lang.Thread.run(Thread.java:750)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_322, Temurin
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Temurin
+	Memory: 715594640 bytes (682 MB) / 989331456 bytes (943 MB) up to 989331456 bytes (943 MB)
+	JVM Flags: 2 total; -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 8 mods loaded, 8 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID             | Version      | Source                           | Signature                                |
+	|:------ |:-------------- |:------------ |:-------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft      | 1.12.2       | minecraft.jar                    | None                                     |
+	| LCHIJA | mcp            | 9.42         | minecraft.jar                    | None                                     |
+	| LCHIJA | FML            | 8.0.99.99    | forgeSrc-1.12.2-14.23.5.2847.jar | None                                     |
+	| LCHIJA | forge          | 14.23.5.2847 | forgeSrc-1.12.2-14.23.5.2847.jar | None                                     |
+	| LCHIJA | ichunutil      | 7.2.2        | iChunUtil-1.12.2-7.2.2.jar       | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+	| LCHIJA | portalgun      | 7.1.0        | PortalGun-1.12.2-7.1.0.jar       | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+	| LCHIJA | chiselsandbits | 14.33        | chiselsandbits-14.33.jar         | None                                     |
+	| LCHIJA | portalreloaded | 0.1          | bin                              | None                                     |
+
+	Loaded coremods (and transformers): 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 8; [EntityPlayerMP['Player234'/17, l='New World', x=-35.10, y=4.00, z=4.56]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

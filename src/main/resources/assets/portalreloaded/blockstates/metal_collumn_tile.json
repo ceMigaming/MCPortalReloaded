@@ -1,0 +1,18 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "0": "portalreloaded:blocks/lower_metal_collumn_tile",
+            "1": "portalreloaded:blocks/upper_metal_collumn_tile",
+            "particle": "portalreloaded:blocks/lower_metal_collumn_tile"
+        }
+    },
+    "variants": {
+        "normal": {
+            "model": "cube_all"
+        },
+        "inventory": {
+            "model": "portalreloaded:metal_collumn_tile"
+        }
+    }
+}

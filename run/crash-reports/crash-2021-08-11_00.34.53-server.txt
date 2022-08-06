@@ -1,0 +1,114 @@
+---- Minecraft Crash Report ----
+// Why did you do that?
+
+Time: 8/11/21 12:34 AM
+Description: Ticking entity
+
+java.lang.NullPointerException: Ticking entity
+	at net.minecraft.enchantment.Enchantment.getEntityEquipment(Enchantment.java:73)
+	at net.minecraft.enchantment.EnchantmentHelper.getMaxEnchantmentLevel(EnchantmentHelper.java:221)
+	at net.minecraft.entity.EntityLivingBase.frostWalk(EntityLivingBase.java:417)
+	at net.minecraft.entity.EntityLivingBase.onEntityUpdate(EntityLivingBase.java:353)
+	at net.minecraft.entity.Entity.onUpdate(Entity.java:466)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:2322)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2174)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:871)
+	at net.minecraft.world.World.updateEntity(World.java:2133)
+	at net.minecraft.world.World.updateEntities(World.java:1934)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:643)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:842)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraft.enchantment.Enchantment.getEntityEquipment(Enchantment.java:73)
+	at net.minecraft.enchantment.EnchantmentHelper.getMaxEnchantmentLevel(EnchantmentHelper.java:221)
+	at net.minecraft.entity.EntityLivingBase.frostWalk(EntityLivingBase.java:417)
+	at net.minecraft.entity.EntityLivingBase.onEntityUpdate(EntityLivingBase.java:353)
+	at net.minecraft.entity.Entity.onUpdate(Entity.java:466)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:2322)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2174)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:871)
+	at net.minecraft.world.World.updateEntity(World.java:2133)
+
+-- Entity being ticked --
+Details:
+	Entity Type: portalreloaded:storage_cube (com.cemi.portalreloaded.entity.EntityStorageCube)
+	Entity ID: 34
+	Entity Name: entity.storage_cube.name
+	Entity's Exact location: 20.27, 10.86, -12.87
+	Entity's Block location: World: (20,10,-13), Chunk: (at 4,0,3 in 1,-1; contains blocks 16,0,-16 to 31,255,-1), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,0,-512 to 511,255,-1)
+	Entity's Momentum: 0.00, 0.00, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.world.World.updateEntities(World.java:1934)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:643)
+
+-- Affected level --
+Details:
+	Level name: Testing
+	All players: 1 total; [EntityPlayerMP['Player640'/0, l='Testing', x=20.27, y=10.86, z=-12.87]]
+	Chunk stats: ServerChunkCache: 697 Drop: 0
+	Level seed: -978064242656762320
+	Level generator: ID 01 - flat, ver 0. Features enabled: true
+	Level generator options: 
+	Level spawn location: World: (891,4,-51), Chunk: (at 11,0,13 in 55,-4; contains blocks 880,0,-64 to 895,255,-49), Region: (1,-1; contains chunks 32,-32 to 63,-1, blocks 512,0,-512 to 1023,255,-1)
+	Level time: 510292 game time, 6000 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 1 (now: false), thunder time: 1 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:842)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_262, AdoptOpenJDK
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), AdoptOpenJDK
+	Memory: 746075864 bytes (711 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 9 mods loaded, 9 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID             | Version      | Source                           | Signature                                |
+	|:------ |:-------------- |:------------ |:-------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft      | 1.12.2       | minecraft.jar                    | None                                     |
+	| LCHIJA | mcp            | 9.42         | minecraft.jar                    | None                                     |
+	| LCHIJA | FML            | 8.0.99.99    | forgeSrc-1.12.2-14.23.5.2847.jar | None                                     |
+	| LCHIJA | forge          | 14.23.5.2847 | forgeSrc-1.12.2-14.23.5.2847.jar | None                                     |
+	| LCHIJA | ichunutil      | 7.2.2        | iChunUtil-1.12.2-7.2.2.jar       | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+	| LCHIJA | portalgun      | 7.1.0        | PortalGun-1.12.2-7.1.0.jar       | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+	| LCHIJA | portalreloaded | 0.1          | bin                              | None                                     |
+	| LCHIJA | hammercore     | 2.0.4.8      | HammerCore-1.12.2-2.0.4.8.jar    | 4d7b29cd19124e986da685107d16ce4b49bc0a97 |
+	| LCHIJA | portalstuff    | 1b           | PortalStuff_1.12.2-1b.jar        | None                                     |
+
+	Loaded coremods (and transformers): 
+HCASM (HammerCore-1.12.2-2.0.4.8.jar)
+  com.zeitheron.hammercore.asm.HammerCoreTransformer
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Hammer Core Information: FluidDictionary Info: Registered 2 fluids.
+OreDictionary Info: Registered 158 names; 195 stacks.
+Pastebin Connection: Okay.
+Dependent Mods:
+    -Portal Stuff (portalstuff) @1b
+
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 8; [EntityPlayerMP['Player640'/0, l='Testing', x=20.27, y=10.86, z=-12.87]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

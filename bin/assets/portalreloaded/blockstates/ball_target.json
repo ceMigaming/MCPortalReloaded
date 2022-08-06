@@ -1,0 +1,22 @@
+{
+    "forge_marker": 1,
+    "variants": {
+        "facing=down,powered=false":  { "model": "portalreloaded:ball_target", "x": 90 },
+        "facing=up,powered=false":    { "model": "portalreloaded:ball_target", "x": 270 },
+        "facing=north,powered=false": { "model": "portalreloaded:ball_target", "y": 0 },
+        "facing=east,powered=false":  { "model": "portalreloaded:ball_target", "y": 90 },
+        "facing=south,powered=false": { "model": "portalreloaded:ball_target", "y": 180 },
+        "facing=west,powered=false":  { "model": "portalreloaded:ball_target", "y": 270 },
+        "facing=down,powered=true":  { "model": "portalreloaded:ball_target", "x": 90 },
+        "facing=up,powered=true":    { "model": "portalreloaded:ball_target", "x": 270 },
+        "facing=north,powered=true": { "model": "portalreloaded:ball_target", "y": 0 },
+        "facing=east,powered=true":  { "model": "portalreloaded:ball_target", "y": 90 },
+        "facing=south,powered=true": { "model": "portalreloaded:ball_target", "y": 180 },
+        "facing=west,powered=true":  { "model": "portalreloaded:ball_target", "y": 270 },
+        "inventory": {
+            "model": "portalreloaded:ball_target",
+            "transform": "forge:default-block",
+            "y" : 180
+        }
+    }
+}
