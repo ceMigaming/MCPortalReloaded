@@ -2937,3 +2937,6 @@ Caused by: java.io.FileNotFoundException: C:\Program Files\Git\mingw64\share\git
 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
 	at org.eclipse.swt.graphics.ImageLoader.load(ImageLoader.java:181)
 	... 46 more
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-08-06 17:00:31.510
+!MESSAGE The workspace will exit with unsaved changes in this session.

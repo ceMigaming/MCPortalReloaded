@@ -423,7 +423,7 @@
           <tags>org.eclipse.jdt.ui.ClassFileEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_qsP75PovEeyvs5OGSOJvxQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="BlockDoor.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BlockDoor.java&quot; partName=&quot;BlockDoor.java&quot; title=&quot;BlockDoor.java&quot; tooltip=&quot;PortalReloaded/src/main/java/com/cemi/portalreloaded/block/BlockDoor.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/PortalReloaded/src/main/java/com/cemi/portalreloaded/block/BlockDoor.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;9583&quot; selectionTopPixel=&quot;2460&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BlockDoor.java&quot; partName=&quot;BlockDoor.java&quot; title=&quot;BlockDoor.java&quot; tooltip=&quot;PortalReloaded/src/main/java/com/cemi/portalreloaded/block/BlockDoor.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/PortalReloaded/src/main/java/com/cemi/portalreloaded/block/BlockDoor.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;8886&quot; selectionTopPixel=&quot;2460&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -776,7 +776,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_qsP8f_ovEeyvs5OGSOJvxQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_YZ9D0BS_Ee2sg9EDq190Cw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_qsSXmPovEeyvs5OGSOJvxQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Q0fMkBWWEe2nMa34B1gLxw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_qsSXmPovEeyvs5OGSOJvxQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_qsP8jPovEeyvs5OGSOJvxQ" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -891,7 +891,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_qsQhrvovEeyvs5OGSOJvxQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_YZ_gEBS_Ee2sg9EDq190Cw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_qsSXR_ovEeyvs5OGSOJvxQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Q0hBwRWWEe2nMa34B1gLxw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_qsSXR_ovEeyvs5OGSOJvxQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_qsQhufovEeyvs5OGSOJvxQ" elementId="org.eclipse.ui.browser.editor" visible="false">
         <tags>Draggable</tags>
