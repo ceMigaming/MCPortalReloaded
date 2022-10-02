@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value=""/>
+		<item key="selection" value="Cube"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<item key="wrap" value="true"/>
 		<item key="incremental" value="false"/>
 		<list key="findhistory">
-			<item value="getItem"/>
-			<item value="color"/>
-			<item value="breakB"/>
-			<item value="brea"/>
-			<item value="getRedstoneStrength"/>
+			<item value="CUBE"/>
+			<item value="subtypes"/>
+			<item value="Resource"/>
+			<item value="CUBE_PLACERS"/>
+			<item value="villager"/>
+			<item value="bat"/>
+			<item value="getCreati"/>
+			<item value="getCreate"/>
+			<item value="CreativeTabs"/>
+			<item value="spawn_egg"/>
+			<item value="spawn"/>
+			<item value="egg"/>
+			<item value="return Item"/>
 			<item value="syste"/>
-			<item value="systte"/>
-			<item value="Syste"/>
 			<item value="system"/>
-			<item value="updatePower"/>
-			<item value="update"/>
-			<item value="world"/>
-			<item value="print"/>
-			<item value="getWeak"/>
-			<item value="log"/>
 		</list>
 		<list key="replacehistory">
 			<item value="portalreloaded:blocks/glass_pane"/>

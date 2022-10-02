@@ -1,0 +1,5 @@
+package com.cemi.portalreloaded.block;
+
+public class BlockDoorDummy extends PortalBlock {
+
+}

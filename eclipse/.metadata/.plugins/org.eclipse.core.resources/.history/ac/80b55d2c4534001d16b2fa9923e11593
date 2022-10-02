@@ -1,0 +1,10 @@
+package com.cemi.portalreloaded.handlers;
+
+import net.minecraftforge.fml.common.gameevent.TickEvent.PlayerTickEvent;
+
+public class PlayerHandler {
+	
+	public static void onPlayerTick(PlayerTickEvent event) {
+		
+	}
+}

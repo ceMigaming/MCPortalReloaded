@@ -1,0 +1,21 @@
+{
+  "multipart" : [ {
+    "variants" : {
+        
+    }
+  }, {
+    "when" : {
+      "open" : "false"
+    },
+    "apply" : {
+      "model" : "portalreloaded:door_closed"
+    }
+  } ],
+  "variants" : {
+    "inventory" : {
+      "model" : "portalreloaded:door_closed",
+      "transform" : "forge:default-block",
+      "y" : 180
+    }
+  }
+}

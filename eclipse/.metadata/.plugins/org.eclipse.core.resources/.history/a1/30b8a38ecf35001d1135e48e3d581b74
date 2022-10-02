@@ -1,0 +1,13 @@
+package com.cemi.portalreloaded.utility;
+
+import com.cemi.portalreloaded.PortalReloaded;
+
+import net.minecraft.util.ResourceLocation;
+
+public class PortalReloadedResourceLocation extends ResourceLocation {
+
+	public PortalReloadedResourceLocation(String resourcePathIn) {
+		super(PortalReloaded.MODID, resourcePathIn);
+	}
+
+}

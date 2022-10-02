@@ -6,6 +6,7 @@ import com.cemi.portalreloaded.PortalReloaded;
 import com.cemi.portalreloaded.client.renderer.entity.model.StorageCubeModel;
 import com.cemi.portalreloaded.entity.EntityStorageCube;
 
+import me.ichun.mods.ichunutil.common.grab.GrabHandler;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.client.model.ModelBase;

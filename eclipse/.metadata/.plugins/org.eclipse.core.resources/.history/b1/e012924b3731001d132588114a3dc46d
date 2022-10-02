@@ -1,0 +1,24 @@
+{
+  "multipart" : [ {
+    "when" : {
+      "open" : "true"
+    },
+    "apply" : {
+      "model" : "portalreloaded:floor_button_on"
+    }
+  }, {
+    "when" : {
+      "open" : "false"
+    },
+    "apply" : {
+      "model" : "portalreloaded:floor_button_off"
+    }
+  } ],
+  "variants" : {
+    "inventory" : {
+      "model" : "portalreloaded:door_closed",
+      "transform" : "forge:default-block",
+      "y" : 180
+    }
+  }
+}

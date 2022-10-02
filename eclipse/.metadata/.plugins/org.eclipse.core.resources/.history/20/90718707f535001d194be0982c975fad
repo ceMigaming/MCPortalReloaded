@@ -1,0 +1,7 @@
+package com.cemi.portalreloaded.block;
+
+import net.minecraft.block.BlockStaticLiquid;
+
+public class PortalStaticLiquid extends BlockStaticLiquid {
+
+}

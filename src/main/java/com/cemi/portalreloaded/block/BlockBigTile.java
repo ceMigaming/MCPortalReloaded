@@ -52,12 +52,10 @@ public class BlockBigTile extends PortalBlock {
 			dx++;
 			dw++;
 			break;
+		default:
 		case DOWN:
 			dx++;
 			dw--;
-			break;
-		default:
-			
 			break;
 		}
 		BlockPos upperLeftBlockPos = new BlockPos(pos.getX(), pos.getY() + dy, pos.getZ()+dw);

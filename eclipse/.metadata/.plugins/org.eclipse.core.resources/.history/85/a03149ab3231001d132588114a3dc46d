@@ -1,0 +1,46 @@
+package com.cemi.portalreloaded.block;
+
+import net.minecraft.block.material.Material;
+import net.minecraft.block.state.IBlockState;
+import net.minecraft.util.BlockRenderLayer;
+import net.minecraft.util.EnumBlockRenderType;
+import net.minecraft.util.EnumFacing;
+import net.minecraft.util.math.AxisAlignedBB;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.IBlockAccess;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
+
+public class BlockDoorDummy extends PortalBlock {
+
+	public BlockDoorDummy(String name) {
+		super(Material.IRON, name);
+	}
+
+	@SideOnly(Side.CLIENT)
+	public BlockRenderLayer getBlockLayer() {
+		return BlockRenderLayer.TRANSLUCENT;
+	}
+
+	@Override
+	public EnumBlockRenderType getRenderType(IBlockState state) {
+		return EnumBlockRenderType.INVISIBLE;
+	}
+
+	public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos) {
+		state = state.getActualState(source, pos);
+		EnumFacing enumfacing = (EnumFacing) state.getValue(FACING);
+		boolean isOpen = ((Boolean) state.getValue(OPEN)).booleanValue();
+		if (isOpen) {
+			return EMPTY_AABB;
+		}
+		switch (enumfacing) {
+		case EAST:
+		case WEST:
+		default:
+			return EAST_WEST_AABB;
+		case NORTH:
+		case SOUTH:
+			return NORTH_SOUTH_AABB;
+		}
+}

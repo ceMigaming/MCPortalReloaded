@@ -7,6 +7,7 @@
 	<item key="CallHierarchyViewPart.orientation" value="3"/>
 	<item key="CallHierarchyViewPart.ratio1" value="500"/>
 	<item key="filters_last_used" value="filter_imports;"/>
+	<item key="delegateUpdating" value="false"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="1"/>
@@ -16,7 +17,7 @@
 	</section>
 	<section name="completion_proposal_size">
 		<item key="size.x" value="430"/>
-		<item key="size.y" value="267"/>
+		<item key="size.y" value="681"/>
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>

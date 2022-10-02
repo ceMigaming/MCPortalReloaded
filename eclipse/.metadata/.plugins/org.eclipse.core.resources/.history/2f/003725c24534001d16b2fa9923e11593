@@ -1,0 +1,9 @@
+package com.cemi.portalreloaded.client.handlers;
+
+import me.ichun.mods.ichunutil.client.keybind.KeyEvent;
+
+public class ClientEventHandler {
+	public static void onKeyEvent(KeyEvent event) {
+		
+	}
+}

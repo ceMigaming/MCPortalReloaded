@@ -70,7 +70,6 @@ public class EntityPathFollowing extends Entity {
 		if (!world.isRemote) {
 			if (shouldFollowPath) {
 				frameCount++;
-				// System.out.println(frameCount);
 				if (currentElement != null) {
 					if ((Math.abs(this.posX - currentElement.x) > speed
 							|| Math.abs(this.posZ - currentElement.z) > speed)) {
@@ -142,11 +141,7 @@ public class EntityPathFollowing extends Entity {
 		}
 
 		this.nextPitch = -(rotationPitch - pitchRot) / (float) (dist * speed * 16.0D);
-		
-		System.out.println(rotationPitch);
-		System.out.println(pitchRot);
-		System.out.println(rotationPitch - pitchRot);
-		
+
 	}
 
 	public void genDefaultPath() {

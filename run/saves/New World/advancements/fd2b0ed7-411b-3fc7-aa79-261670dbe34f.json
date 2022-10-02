@@ -1,43 +1,13 @@
 {
-  "minecraft:recipes/redstone/sticky_piston": {
+  "minecraft:story/lava_bucket": {
     "criteria": {
-      "has_slime_ball": "2021-04-01 13:11:38 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/lead": {
-    "criteria": {
-      "has_slime_ball": "2021-04-01 13:11:38 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_stairs": {
-    "criteria": {
-      "has_quartz_block": "2021-04-01 13:11:38 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_slab": {
-    "criteria": {
-      "has_quartz_block": "2021-04-01 13:11:38 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/pillar_quartz_block": {
-    "criteria": {
-      "has_quartz_block": "2021-04-01 13:11:38 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
-    "criteria": {
-      "has_quartz_block": "2021-04-01 13:11:38 +0200"
+      "lava_bucket": "2022-09-16 17:32:40 +0200"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "plains": "2021-04-01 13:11:38 +0200"
+      "plains": "2022-09-16 17:32:40 +0200"
     },
     "done": false
   }

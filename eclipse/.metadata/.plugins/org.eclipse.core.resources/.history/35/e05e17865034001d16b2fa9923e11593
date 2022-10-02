@@ -1,0 +1,5 @@
+package com.cemi.portalreloaded.packets;
+
+public class MessageKeyEvent {
+
+}

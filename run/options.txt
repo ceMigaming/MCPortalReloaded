@@ -113,7 +113,7 @@ key_mod.chiselsandbits.other.offgrid:0
 key_mod.chiselsandbits.other.undo:0
 key_mod.chiselsandbits.other.redo:0
 key_mod.chiselsandbits.other.add_to_clipboard:0
-soundCategory_master:0.0
+soundCategory_master:0.10927153
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

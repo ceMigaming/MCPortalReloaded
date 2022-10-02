@@ -5,6 +5,7 @@ import java.util.HashSet;
 import java.util.Random;
 
 import com.cemi.portalreloaded.utility.InventoryUtilities;
+import com.cemi.portalreloaded.utility.PortalGunHelper;
 
 import me.ichun.mods.ichunutil.common.item.ItemHandler;
 import me.ichun.mods.portalgun.common.PortalGun;
@@ -136,21 +137,7 @@ public class BlockFizzlerField extends PortalBlock {
 		ItemStack portalGun = player.inventory.getStackInSlot(slot);
 		NBTTagCompound NBT = portalGun.getTagCompound();
 
-		HashSet<PortalInfo> infoHS = PortalGun.eventHandlerServer.getWorldSaveData(player.dimension).portalList;
-		ArrayList<PortalInfo> infoList = new ArrayList<PortalInfo>();
-
-		for (final PortalInfo info : infoHS) {
-			if (info.uuid.equals(NBT.getString("uuid")) && info.channelName.equals(NBT.getString("channelName"))) {
-				infoList.add(info);
-			}
-		}
-
-		for (final PortalInfo info : infoList) {
-			PortalPlacement portalPlacement = info.getPortalPlacement(player.world);
-			if (portalPlacement != null) {
-				portalPlacement.remove(BlockPos.ORIGIN);
-			}
-		}
+		PortalGunHelper.RemovePortals(player.world, player.dimension, NBT.getString("uuid"), NBT.getString("channelName"), -1);
 	}
 
 	@Override

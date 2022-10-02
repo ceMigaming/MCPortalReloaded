@@ -27,14 +27,19 @@ public class PortalBlocks {
 	public static BlockBallTarget ballTarget = new BlockBallTarget();
 	public static GlassBlock glassBlock = new GlassBlock("glass_block");
 	public static BlockFizzlerField fizzlerField = new BlockFizzlerField();
-	public static BlockFloorButton floorButton = new BlockFloorButton("floor_button", Sensitivity.EVERYTHING, Style.NEW);
-	public static BlockDummyFloorButton dummyFloorButton = new BlockDummyFloorButton("dummy_floor_button");
-	
+	public static BlockFloorButton floorButton = new BlockFloorButton("floor_button", Sensitivity.EVERYTHING,
+			Style.NEW);
+	public static BlockFloorButtonDummy dummyFloorButton = new BlockFloorButtonDummy("dummy_floor_button");
+	public static BlockDoor door = new BlockDoor("door");
+	public static BlockDoorDummy dummyDoor = new BlockDoorDummy("dummy_door");
+	public static BlockPortalSpawner portalSpawnerA = new BlockPortalSpawner("portal_spawner_a", true);
+	public static BlockPortalSpawner portalSpawnerB = new BlockPortalSpawner("portal_spawner_b", false);
+
 	// GLASS
 	public static GlassBlock seemedGlassBlock = new GlassBlock("glass_block_seemed");
 	public static PaneBlock glassPane = new PaneBlock("glass_pane");
 	public static PaneBlock seemedGlassPane = new PaneBlock("glass_pane_seemed");
-	
+
 	// CONCRETE TILES
 	public static PortalBlock smallConcreteTile = new PortalBlock(Material.ROCK, "small_concrete_tile");
 	public static PortalBlock mediumConcreteTile = new PortalBlock(Material.ROCK, "medium_concrete_tile");
@@ -66,51 +71,63 @@ public class PortalBlocks {
 	public static BlockBigTile metalBigTile = new BlockBigTile(Material.ROCK, "metal_big_tile", upperLeftMetalBigTile,
 			upperRightMetalBigTile, lowerLeftMetalBigTile, lowerRightMetalBigTile);
 
-	public static PortalBlock[] blocks = {
+	public static PortalFlowingLiquid flowingNeurotoxin = new PortalFlowingLiquid(Material.WATER, "flowing_neurotoxin");
+	public static PortalStaticLiquid neurotoxin = new PortalStaticLiquid(Material.WATER, "neurotoxin");
+
+	public static Block[] blocks = {
 			// CONCRETE TILES
 			smallConcreteTile, mediumConcreteTile, upperConcreteCollumnTile, lowerConcreteCollumnTile,
 			concreteCollumnTile, upperLeftConcreteBigTile, upperRightConcreteBigTile, lowerLeftConcreteBigTile,
 			lowerRightConcreteBigTile, concreteBigTile,
 			// METAL TILES
 			smallMetalTile, mediumMetalTile, upperMetalCollumnTile, lowerMetalCollumnTile, metalCollumnTile,
-			upperLeftMetalBigTile, upperRightMetalBigTile, lowerLeftMetalBigTile, lowerRightMetalBigTile,
-			metalBigTile,
+			upperLeftMetalBigTile, upperRightMetalBigTile, lowerLeftMetalBigTile, lowerRightMetalBigTile, metalBigTile,
 			// GLASS
-			glassBlock, seemedGlassBlock,
-			glassPane, seemedGlassPane,
+			glassBlock, seemedGlassBlock, glassPane, seemedGlassPane,
 			// ELECTRONICS
-			fizzlerField,
-			ballLauncher, ballTarget,
-			indicatorLight,
-			floorButton, dummyFloorButton
-			};
+			fizzlerField, ballLauncher, ballTarget, indicatorLight, floorButton, dummyFloorButton, door, dummyDoor,
+			portalSpawnerA, portalSpawnerB, flowingNeurotoxin, neurotoxin };
 
 	public static void register(IForgeRegistry<Block> registry) {
 		registry.registerAll(blocks);
 		GameRegistry.registerTileEntity(ballLauncher.getTileEntityClass(), ballLauncher.getRegistryName().toString());
 		GameRegistry.registerTileEntity(ballTarget.getTileEntityClass(), ballTarget.getRegistryName().toString());
-		GameRegistry.registerTileEntity(indicatorLight.getTileEntityClass(), indicatorLight.getRegistryName().toString());
+		GameRegistry.registerTileEntity(indicatorLight.getTileEntityClass(),
+				indicatorLight.getRegistryName().toString());
+		GameRegistry.registerTileEntity(portalSpawnerA.getTileEntityClass(),
+				portalSpawnerA.getRegistryName().toString());
 	}
 
 	public static void registerItemBlocks(IForgeRegistry<Item> registry) {
-		for (PortalBlock block : blocks) {
-			registry.register(block.createItemBlock());
+		for (Block block : blocks) {
+			if (block instanceof PortalBlock)
+				registry.register(((PortalBlock) block).createItemBlock());
+			if (block instanceof PortalFlowingLiquid)
+				registry.register(((PortalFlowingLiquid) block).createItemBlock());
+			if (block instanceof PortalStaticLiquid)
+				registry.register(((PortalStaticLiquid) block).createItemBlock());
 		}
 	}
 
 	public static void registerModels() {
-		for (PortalBlock block : blocks) {
-			block.registerItemModel(Item.getItemFromBlock(block));
+		for (Block block : blocks) {
+			if (block instanceof PortalBlock)
+				((PortalBlock) block).registerItemModel(Item.getItemFromBlock(block));
+			if (block instanceof PortalFlowingLiquid)
+				((PortalFlowingLiquid) block).registerItemModel(Item.getItemFromBlock(block));
+			if (block instanceof PortalStaticLiquid)
+				((PortalStaticLiquid) block).registerItemModel(Item.getItemFromBlock(block));
 		}
 	}
-	
+
 	public static void registerBlockColors(final ColorHandlerEvent.Block event) {
 		PortalReloaded.proxy.registerBlockColors(event);
 	}
-	
+
 	public static void forceCnB() {
-		for (PortalBlock block : blocks) {
-			block.forceCnB();
+		for (Block block : blocks) {
+			if (block instanceof PortalBlock)
+				((PortalBlock) block).forceCnB();
 		}
 	}
 

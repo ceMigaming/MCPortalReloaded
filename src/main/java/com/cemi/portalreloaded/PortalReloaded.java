@@ -4,14 +4,19 @@ import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.Logger;
 
 import com.cemi.portalreloaded.block.PortalBlocks;
+import com.cemi.portalreloaded.client.handlers.ClientEventHandler;
 import com.cemi.portalreloaded.command.PortalCommands;
 import com.cemi.portalreloaded.entity.PortalEntities;
 import com.cemi.portalreloaded.handlers.PacketHandler;
 import com.cemi.portalreloaded.item.PortalItems;
+import com.cemi.portalreloaded.packets.MessageGrabEvent;
+import com.cemi.portalreloaded.packets.MessageKeyEvent;
 import com.cemi.portalreloaded.proxy.CommonProxy;
 
+import me.ichun.mods.ichunutil.client.keybind.KeyEvent;
+import me.ichun.mods.ichunutil.common.core.network.PacketChannel;
+import me.ichun.mods.ichunutil.common.grab.GrabHandler;
 import net.minecraft.block.Block;
-import net.minecraft.client.renderer.color.BlockColors;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
@@ -27,6 +32,8 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.gameevent.TickEvent;
+import net.minecraftforge.fml.common.gameevent.TickEvent.Phase;
 import net.minecraftforge.fml.common.registry.EntityEntry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -36,6 +43,7 @@ public class PortalReloaded {
 	public static final String MODID = "portalreloaded";
 	public static final String NAME = "Portal Reloaded";
 	public static final String VERSION = "0.1";
+	public static PacketChannel channel;
 
 	private static Logger logger;
 
@@ -48,6 +56,7 @@ public class PortalReloaded {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		logger = event.getModLog();
+		channel = new PacketChannel("PortalReloaded", new Class[] { MessageKeyEvent.class, MessageGrabEvent.class });
 		PacketHandler.register();
 	}
 
@@ -100,9 +109,19 @@ public class PortalReloaded {
 		public static void registerBlockColors(final ColorHandlerEvent.Block event) {
 			PortalBlocks.registerBlockColors(event);
 		}
+
+		@SubscribeEvent
+		@SideOnly(Side.CLIENT)
+		public static void onKeyEvent(KeyEvent event) {
+			ClientEventHandler.onKeyEvent(event);
+		}
 	}
-	
+
 	public static void log(Object obj) {
 		logger.log(Level.INFO, obj);
+	}
+
+	public static void logError(Object obj) {
+		logger.log(Level.ERROR, obj);
 	}
 }

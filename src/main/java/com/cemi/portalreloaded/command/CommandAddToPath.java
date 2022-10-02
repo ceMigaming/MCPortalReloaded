@@ -44,8 +44,6 @@ public class CommandAddToPath extends CommandBase {
 	 * Callback for when the command is executed
 	 */
 	public void execute(MinecraftServer server, ICommandSender sender, String[] args) throws CommandException {
-		System.out.println(sender.getCommandSenderEntity().rotationPitch);
-		System.out.println(sender.getCommandSenderEntity().rotationYaw);
 		if (args.length < 2) {
 			throw new WrongUsageException("commands.addtopath.usage", new Object[0]);
 		} else {

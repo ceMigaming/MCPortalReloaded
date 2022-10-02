@@ -1,0 +1,5 @@
+package com.cemi.portalreloaded.tileentity;
+
+public class TileEntityPortalSpawner {
+
+}

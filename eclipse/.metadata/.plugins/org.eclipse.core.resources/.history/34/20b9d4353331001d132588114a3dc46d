@@ -1,0 +1,65 @@
+package com.cemi.portalreloaded.block;
+
+import net.minecraft.block.BlockHorizontal;
+import net.minecraft.block.material.Material;
+import net.minecraft.block.properties.IProperty;
+import net.minecraft.block.properties.PropertyBool;
+import net.minecraft.block.properties.PropertyDirection;
+import net.minecraft.block.state.BlockStateContainer;
+import net.minecraft.block.state.IBlockState;
+import net.minecraft.util.BlockRenderLayer;
+import net.minecraft.util.EnumBlockRenderType;
+import net.minecraft.util.EnumFacing;
+import net.minecraft.util.math.AxisAlignedBB;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.IBlockAccess;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
+
+public class BlockDoorDummy extends PortalBlock {
+
+	public static final PropertyDirection FACING = BlockHorizontal.FACING;
+	public static final PropertyBool OPEN = PropertyBool.create("open");
+	public static final PropertyBool POWERED = PropertyBool.create("powered");
+	protected static final AxisAlignedBB EAST_WEST_AABB = new AxisAlignedBB(0.0D, 0.0D, 0.1875D, 1.0D, 1.0D, 0.8125D);
+	protected static final AxisAlignedBB NORTH_SOUTH_AABB = new AxisAlignedBB(0.1875D, 0.0D, 0.0D, 0.8125D, 1.0D, 1.0D);
+	protected static final AxisAlignedBB EMPTY_AABB = new AxisAlignedBB(0.0D, 0.0D, 0.0D, 0.0D, 0.0D, 0.0D);
+
+	public BlockDoorDummy(String name) {
+		super(Material.IRON, name);
+		this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH)
+				.withProperty(OPEN, Boolean.valueOf(false)).withProperty(POWERED, Boolean.valueOf(false)));
+	}
+
+	@SideOnly(Side.CLIENT)
+	public BlockRenderLayer getBlockLayer() {
+		return BlockRenderLayer.TRANSLUCENT;
+	}
+
+	@Override
+	public EnumBlockRenderType getRenderType(IBlockState state) {
+		return EnumBlockRenderType.INVISIBLE;
+	}
+
+	public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos) {
+		state = state.getActualState(source, pos);
+		EnumFacing enumfacing = (EnumFacing) state.getValue(FACING);
+		boolean isOpen = ((Boolean) state.getValue(OPEN)).booleanValue();
+		if (isOpen) {
+			return EMPTY_AABB;
+		}
+		switch (enumfacing) {
+		case EAST:
+		case WEST:
+		default:
+			return EAST_WEST_AABB;
+		case NORTH:
+		case SOUTH:
+			return NORTH_SOUTH_AABB;
+		}
+	}
+	
+	protected BlockStateContainer createBlockState() {
+		return new BlockStateContainer(this, new IProperty[] { FACING, OPEN, POWERED });
+	}
+}

@@ -1,118 +1,205 @@
-[14:47:00] [main/INFO] [GradleStart]: Extra: []
-[14:47:00] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/macie/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[14:47:00] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[14:47:00] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[14:47:01] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[14:47:01] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[14:47:01] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
-[14:47:01] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_322, running on Windows 10:amd64:10.0, installed at C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre
-[14:47:01] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[14:47:01] [main/ERROR] [FML]: Full: C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[14:47:01] [main/ERROR] [FML]: Trimmed: c:/users/macie/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[14:47:01] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[14:47:01] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[14:47:03] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[14:47:03] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[14:47:03] [main/INFO] [FML]: Searching G:\Minecraft-modding\Forge\PortalReloaded_1.12.2\run\.\mods for mods
-[14:47:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[14:47:03] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[14:47:03] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[14:47:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[14:47:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[14:47:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[14:47:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[14:47:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[14:47:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[14:47:05] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[14:47:05] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[14:47:05] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[14:47:06] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[14:47:06] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
-[14:47:06] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[14:47:06] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[14:47:06] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[14:47:06] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player187
-[14:47:11] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[14:47:11] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[14:47:12] [Client thread/INFO] [FML]: -- System Details --
+[18:17:04] [main/INFO] [GradleStart]: Extra: []
+[18:17:04] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/macie/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[18:17:04] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:17:04] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:17:04] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:17:04] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:17:04] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
+[18:17:04] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_322, running on Windows 10:amd64:10.0, installed at C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre
+[18:17:04] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[18:17:04] [main/ERROR] [FML]: Full: C:\Users\macie\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[18:17:04] [main/ERROR] [FML]: Trimmed: c:/users/macie/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[18:17:04] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[18:17:04] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[18:17:05] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[18:17:05] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[18:17:05] [main/INFO] [FML]: Searching G:\Minecraft-modding\Forge\PortalReloaded_1.12.2\run\.\mods for mods
+[18:17:05] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:17:05] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[18:17:05] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[18:17:05] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:17:05] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:17:05] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[18:17:05] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:17:05] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:17:05] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:17:06] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[18:17:06] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:17:06] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:17:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[18:17:07] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
+[18:17:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:17:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:17:07] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[18:17:07] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player328
+[18:17:10] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[18:17:10] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[18:17:11] [Client thread/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_322, Temurin
 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Temurin
-	Memory: 886521984 bytes (845 MB) / 1008730112 bytes (962 MB) up to 1008730112 bytes (962 MB)
+	Memory: 844319016 bytes (805 MB) / 1008730112 bytes (962 MB) up to 1008730112 bytes (962 MB)
 	JVM Flags: 2 total; -Xmx1024M -Xms1024M
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
-	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 512.59' Renderer: 'NVIDIA GeForce RTX 2070 SUPER/PCIe/SSE2'
-[14:47:12] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
-[14:47:12] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[14:47:13] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[14:47:13] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
-[14:47:15] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 110527500 nanos
-[14:47:15] [Client thread/INFO] [FML]: Searching G:\Minecraft-modding\Forge\PortalReloaded_1.12.2\run\.\mods for mods
-[14:47:18] [Client thread/INFO] [FML]: Forge Mod Loader has identified 8 mods to load
-[14:47:18] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, portalreloaded, ichunutil, portalgun, chiselsandbits] at CLIENT
-[14:47:18] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, portalreloaded, ichunutil, portalgun, chiselsandbits] at SERVER
-[14:47:20] [Client thread/INFO] [FML]: OBJLoader: Domain portalreloaded has been added.
-[14:47:20] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Portal Reloaded, FMLFileResourcePack:iChunUtil, FMLFileResourcePack:PortalGun, FMLFileResourcePack:Chisels & Bits
-[14:47:21] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
-[14:47:21] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[14:47:21] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[14:47:21] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[14:47:21] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[14:47:21] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[14:47:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `portalgun_tileentityportalmaster`, expected `portalgun`. This could be a intended override, but in most cases indicates a broken mod.
-[14:47:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `portalgun_tileentityportalbase`, expected `portalgun`. This could be a intended override, but in most cases indicates a broken mod.
-[14:47:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mod.chiselsandbits.tileentitychiseled`, expected `chiselsandbits`. This could be a intended override, but in most cases indicates a broken mod.
-[14:47:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mod.chiselsandbits.tileentitychiseled.tesr`, expected `chiselsandbits`. This could be a intended override, but in most cases indicates a broken mod.
-[14:47:22] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mod.chiselsandbits.tileentitybittank`, expected `chiselsandbits`. This could be a intended override, but in most cases indicates a broken mod.
-[14:47:23] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2859
-[14:47:23] [Client thread/INFO] [FML]: Applying holder lookups
-[14:47:23] [Client thread/INFO] [FML]: Holder lookups applied
-[14:47:23] [Client thread/INFO] [FML]: Applying holder lookups
-[14:47:23] [Client thread/INFO] [FML]: Holder lookups applied
-[14:47:23] [Client thread/INFO] [FML]: Applying holder lookups
-[14:47:23] [Client thread/INFO] [FML]: Holder lookups applied
-[14:47:23] [Client thread/INFO] [FML]: Applying holder lookups
-[14:47:23] [Client thread/INFO] [FML]: Holder lookups applied
-[14:47:23] [Client thread/INFO] [FML]: Injecting itemstacks
-[14:47:23] [Client thread/INFO] [FML]: Itemstack injection complete
-[14:47:27] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[14:47:27] [Thread-6/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
-[14:47:27] [Thread-6/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[14:47:27] [Thread-6/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
-[14:47:28] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
-[14:47:33] [Client thread/INFO] [FML]: Max texture size: 16384
-[14:47:33] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:33] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
-[14:47:34] [Client thread/ERROR] [FML]: Exception loading model for variant portalreloaded:indicator_light#inventory for item "portalreloaded:indicator_light", normal location exception: 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 516.59' Renderer: 'NVIDIA GeForce RTX 2070 SUPER/PCIe/SSE2'
+[18:17:11] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
+[18:17:11] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[18:17:11] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[18:17:11] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[18:17:12] [Client thread/INFO] [FML]: Searching G:\Minecraft-modding\Forge\PortalReloaded_1.12.2\run\.\mods for mods
+[18:17:12] [Client thread/INFO] [FML]: Forge Mod Loader has identified 8 mods to load
+[18:17:13] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, portalreloaded, ichunutil, portalgun, chiselsandbits] at CLIENT
+[18:17:13] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, portalreloaded, ichunutil, portalgun, chiselsandbits] at SERVER
+[18:17:13] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 203441700 nanos
+[18:17:13] [Client thread/INFO] [FML]: OBJLoader: Domain portalreloaded has been added.
+[18:17:13] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Portal Reloaded, FMLFileResourcePack:iChunUtil, FMLFileResourcePack:PortalGun, FMLFileResourcePack:Chisels & Bits
+[18:17:14] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[18:17:14] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[18:17:14] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[18:17:14] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[18:17:14] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[18:17:14] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[18:17:14] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `portalgun_tileentityportalmaster`, expected `portalgun`. This could be a intended override, but in most cases indicates a broken mod.
+[18:17:14] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `portalgun_tileentityportalbase`, expected `portalgun`. This could be a intended override, but in most cases indicates a broken mod.
+[18:17:15] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mod.chiselsandbits.tileentitychiseled`, expected `chiselsandbits`. This could be a intended override, but in most cases indicates a broken mod.
+[18:17:15] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mod.chiselsandbits.tileentitychiseled.tesr`, expected `chiselsandbits`. This could be a intended override, but in most cases indicates a broken mod.
+[18:17:15] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mod.chiselsandbits.tileentitybittank`, expected `chiselsandbits`. This could be a intended override, but in most cases indicates a broken mod.
+[18:17:15] [Client thread/INFO] [FML]: Applying holder lookups
+[18:17:15] [Client thread/INFO] [FML]: Holder lookups applied
+[18:17:15] [Client thread/INFO] [FML]: Applying holder lookups
+[18:17:15] [Client thread/INFO] [FML]: Holder lookups applied
+[18:17:15] [Client thread/INFO] [FML]: Applying holder lookups
+[18:17:15] [Client thread/INFO] [FML]: Holder lookups applied
+[18:17:15] [Client thread/INFO] [FML]: Applying holder lookups
+[18:17:15] [Client thread/INFO] [FML]: Holder lookups applied
+[18:17:15] [Client thread/INFO] [FML]: Injecting itemstacks
+[18:17:15] [Client thread/INFO] [FML]: Itemstack injection complete
+[18:17:16] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2859
+[18:17:18] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[18:17:18] [Thread-6/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[18:17:18] [Thread-6/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:17:19] [Thread-6/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[18:17:19] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[18:17:23] [Client thread/INFO] [FML]: Max texture size: 16384
+[18:17:23] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 1024x512 textures-atlas
+[18:17:23] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:23] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:23] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:23] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:23] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:23] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:23] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:23] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:23] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:23] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:23] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:23] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:23] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:24] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:24] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:24] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:24] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:24] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:24] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:24] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:24] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:24] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:24] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:24] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:24] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:24] [Client thread/WARN] [net.minecraft.client.renderer.block.model.ModelBlock]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[18:17:24] [Client thread/ERROR] [FML]: Exception loading model for variant portalreloaded:door#facing=north,open=false,powered=true for blockstate "portalreloaded:door[facing=north,open=false,powered=true]"
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model portalreloaded:door#facing=north,open=false,powered=true with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 21 more
+[18:17:24] [Client thread/ERROR] [FML]: Exception loading model for variant portalreloaded:door#facing=west,open=true,powered=true for blockstate "portalreloaded:door[facing=west,open=true,powered=true]"
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model portalreloaded:door#facing=west,open=true,powered=true with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 21 more
+[18:17:24] [Client thread/ERROR] [FML]: Exception loading model for variant portalreloaded:door#facing=east,open=false,powered=true for blockstate "portalreloaded:door[facing=east,open=false,powered=true]"
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model portalreloaded:door#facing=east,open=false,powered=true with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:235) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 21 more
+[18:17:24] [Client thread/ERROR] [FML]: Exception loading model for variant portalreloaded:indicator_light#inventory for item "portalreloaded:indicator_light", normal location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model portalreloaded:item/indicator_light with loader VanillaLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
@@ -143,7 +230,7 @@ Caused by: java.io.FileNotFoundException: portalreloaded:models/item/indicator_l
 	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
 	... 20 more
-[14:47:34] [Client thread/ERROR] [FML]: Exception loading model for variant portalreloaded:indicator_light#inventory for item "portalreloaded:indicator_light", blockstate location exception: 
+[18:17:24] [Client thread/ERROR] [FML]: Exception loading model for variant portalreloaded:indicator_light#inventory for item "portalreloaded:indicator_light", blockstate location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model portalreloaded:indicator_light#inventory with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
@@ -171,130 +258,7 @@ Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$Missin
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
 	... 20 more
-[14:47:34] [Client thread/ERROR] [FML]: Exception loading model for variant portalreloaded:dummy_floor_button#inventory for item "portalreloaded:dummy_floor_button", normal location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model portalreloaded:item/dummy_floor_button with loader VanillaLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: java.io.FileNotFoundException: portalreloaded:models/item/dummy_floor_button.json
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 20 more
-[14:47:34] [Client thread/ERROR] [FML]: Exception loading model for variant portalreloaded:dummy_floor_button#inventory for item "portalreloaded:dummy_floor_button", blockstate location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model portalreloaded:dummy_floor_button#inventory with loader VariantLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
-	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 20 more
-[14:47:34] [Client thread/ERROR] [FML]: Exception loading blockstate for the variant portalreloaded:dummy_floor_button#inventory: 
-java.lang.Exception: Could not load model definition for variant portalreloaded:dummy_floor_button
-	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:269) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model portalreloaded:blockstates/dummy_floor_button.json
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:228) ~[ModelBakery.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
-	... 20 more
-Caused by: java.io.FileNotFoundException: portalreloaded:blockstates/dummy_floor_button.json
-	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:104) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:79) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:221) ~[ModelBakery.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:265) ~[ModelLoader.class:?]
-	... 20 more
-[14:47:34] [Client thread/ERROR] [FML]: Exception loading model for variant portalreloaded:dummy_floor_button#powered=true for blockstate "portalreloaded:dummy_floor_button[powered=true]"
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model portalreloaded:dummy_floor_button#powered=true with loader VariantLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:235) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
-	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 21 more
-[14:47:34] [Client thread/ERROR] [FML]: Exception loading model for variant chiselsandbits:debug#inventory for item "chiselsandbits:debug", normal location exception: 
+[18:17:24] [Client thread/ERROR] [FML]: Exception loading model for variant chiselsandbits:debug#inventory for item "chiselsandbits:debug", normal location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model chiselsandbits:item/debug with loader VanillaLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
@@ -325,7 +289,7 @@ Caused by: java.io.FileNotFoundException: chiselsandbits:models/item/debug.json
 	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
 	... 20 more
-[14:47:34] [Client thread/ERROR] [FML]: Exception loading model for variant chiselsandbits:debug#inventory for item "chiselsandbits:debug", blockstate location exception: 
+[18:17:24] [Client thread/ERROR] [FML]: Exception loading model for variant chiselsandbits:debug#inventory for item "chiselsandbits:debug", blockstate location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model chiselsandbits:debug#inventory with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
@@ -353,98 +317,81 @@ Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$Missin
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
 	... 20 more
-[14:47:34] [Client thread/ERROR] [FML]: Exception loading model for variant portalreloaded:fizzler_field_block#inventory for item "portalreloaded:fizzler_field_block", normal location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model portalreloaded:item/fizzler_field_block with loader VanillaLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: java.io.FileNotFoundException: portalreloaded:models/item/fizzler_field_block.json
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 20 more
-[14:47:34] [Client thread/ERROR] [FML]: Exception loading model for variant portalreloaded:fizzler_field_block#inventory for item "portalreloaded:fizzler_field_block", blockstate location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model portalreloaded:fizzler_field_block#inventory with loader VariantLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_322]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_322]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_322]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_322]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
-	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 20 more
-[14:47:34] [Client thread/FATAL] [FML]: Suppressed additional 0 model loading errors for domain portalreloaded
-[14:47:36] [Client thread/INFO] [FML]: Applying holder lookups
-[14:47:36] [Client thread/INFO] [FML]: Holder lookups applied
-[14:47:37] [Client thread/INFO] [FML]: Injecting itemstacks
-[14:47:37] [Client thread/INFO] [FML]: Itemstack injection complete
-[14:47:37] [iChunUtil Online Resource Thread/WARN] [iChunUtil]: Error retrieving iChunUtil patron list.
-[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: java.io.FileNotFoundException: https://raw.githubusercontent.com/iChun/iChunUtil/master/src/main/resources/assets/ichunutil/mod/patrons.json
-[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1898)
-[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:92)
-[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1492)
-[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1490)
-[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at java.security.AccessController.doPrivileged(Native Method)
-[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784)
-[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1489)
-[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
-[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at java.net.URL.openStream(URL.java:1093)
-[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at me.ichun.mods.ichunutil.common.thread.ThreadGetResources.run(ThreadGetResources.java:38)
-[14:47:37] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 8 mods
-[14:47:37] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[14:47:37] [iChunUtil Online Resource Thread/WARN] [iChunUtil]: Error retrieving mods versions list.
-[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: java.io.FileNotFoundException: https://raw.githubusercontent.com/iChun/iChunUtil/master/src/main/resources/assets/ichunutil/mod/versions.json
-[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1898)
-[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:92)
-[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1492)
-[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1490)
-[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at java.security.AccessController.doPrivileged(Native Method)
-[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784)
-[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1489)
-[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
-[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at java.net.URL.openStream(URL.java:1093)
-[14:47:37] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at me.ichun.mods.ichunutil.common.thread.ThreadGetResources.run(ThreadGetResources.java:67)
-[14:47:37] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
-[14:47:38] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[14:48:02] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
-[14:48:02] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
-[14:48:03] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
+[18:17:24] [Client thread/FATAL] [FML]: Suppressed additional 26 model loading errors for domain portalreloaded
+[18:17:25] [Client thread/INFO] [FML]: Applying holder lookups
+[18:17:25] [Client thread/INFO] [FML]: Holder lookups applied
+[18:17:25] [Client thread/INFO] [FML]: Injecting itemstacks
+[18:17:25] [Client thread/INFO] [FML]: Itemstack injection complete
+[18:17:25] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 8 mods
+[18:17:25] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[18:17:25] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[18:17:26] [iChunUtil Online Resource Thread/WARN] [iChunUtil]: Error retrieving iChunUtil patron list.
+[18:17:26] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: java.io.FileNotFoundException: https://raw.githubusercontent.com/iChun/iChunUtil/master/src/main/resources/assets/ichunutil/mod/patrons.json
+[18:17:26] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1898)
+[18:17:26] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:92)
+[18:17:26] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1492)
+[18:17:26] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1490)
+[18:17:26] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at java.security.AccessController.doPrivileged(Native Method)
+[18:17:26] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784)
+[18:17:26] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1489)
+[18:17:26] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[18:17:26] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at java.net.URL.openStream(URL.java:1093)
+[18:17:26] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:61]: 	at me.ichun.mods.ichunutil.common.thread.ThreadGetResources.run(ThreadGetResources.java:38)
+[18:17:26] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[18:17:26] [iChunUtil Online Resource Thread/WARN] [iChunUtil]: Error retrieving mods versions list.
+[18:17:26] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: java.io.FileNotFoundException: https://raw.githubusercontent.com/iChun/iChunUtil/master/src/main/resources/assets/ichunutil/mod/versions.json
+[18:17:26] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1898)
+[18:17:26] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:92)
+[18:17:26] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1492)
+[18:17:26] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1490)
+[18:17:26] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at java.security.AccessController.doPrivileged(Native Method)
+[18:17:26] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784)
+[18:17:26] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1489)
+[18:17:26] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[18:17:26] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at java.net.URL.openStream(URL.java:1093)
+[18:17:26] [iChunUtil Online Resource Thread/INFO] [STDERR]: [me.ichun.mods.ichunutil.common.thread.ThreadGetResources:run:77]: 	at me.ichun.mods.ichunutil.common.thread.ThreadGetResources.run(ThreadGetResources.java:67)
+[18:33:56] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[18:33:56] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[18:33:56] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[18:33:56] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world portalreloaded:entity_placer
+[18:33:56] [Server thread/ERROR] [FML]: Unidentified mapping from registry minecraft:items
+[18:33:56] [Server thread/ERROR] [FML]:     portalreloaded:entity_placer: 4097
+[18:34:00] [Server thread/INFO] [FML]: World backup created at G:\Minecraft-modding\Forge\PortalReloaded_1.12.2\run\saves\New World-20220916-183400.zip.
+[18:34:00] [Server thread/ERROR] [FML]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[18:34:00] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: portalreloaded:robots_placer Expected: 4098 Got: 4164
+[18:34:00] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: portalreloaded:cube_placer Expected: 4097 Got: 4165
+[18:34:01] [Server thread/INFO] [FML]: Applying holder lookups
+[18:34:01] [Server thread/INFO] [FML]: Holder lookups applied
+[18:34:01] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@4867c514)
+[18:34:01] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[18:34:01] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@4867c514)
+[18:34:01] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@4867c514)
+[18:34:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[18:34:02] [Server thread/INFO] [FML]: Unloading dimension -1
+[18:34:02] [Server thread/INFO] [FML]: Unloading dimension 1
+[18:34:04] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[18:34:04] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[18:34:04] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,ichunutil@7.2.2,portalgun@7.1.0,portalreloaded@0.1,FML@8.0.99.99,forge@14.23.5.2847,chiselsandbits@14.33,mcp@9.42
+[18:34:04] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[18:34:04] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[18:34:04] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player328[local:E:58a87474] logged in with entity id 126 at (29.660975511063935, 4.0, 5.6858265965751595)
+[18:34:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player328 joined the game
+[18:34:04] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity portalreloaded:pivot_cube that already exists with UUID 88a05947-e661-4fb3-88b8-d7629518f354
+[18:34:05] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[18:34:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[18:34:05] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 7 advancements
+[18:54:13] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[18:54:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[19:10:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[19:10:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[19:10:32] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player328 lost connection: Disconnected
+[19:10:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player328 left the game
+[19:10:32] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[19:10:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[19:10:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[19:10:32] [Server thread/INFO] [FML]: Unloading dimension 0
+[19:10:32] [Server thread/INFO] [FML]: Applying holder lookups
+[19:10:32] [Server thread/INFO] [FML]: Holder lookups applied
+[19:10:33] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[19:10:33] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[19:10:33] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

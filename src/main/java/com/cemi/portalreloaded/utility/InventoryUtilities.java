@@ -11,7 +11,6 @@ public class InventoryUtilities {
 			if (!inventoryIn.getStackInSlot(i).isEmpty() && inventoryIn.getStackInSlot(i).getItem() == itemIn)
 				return i;
 		}
-		System.out.println();
 		return -1;
 	}
 }

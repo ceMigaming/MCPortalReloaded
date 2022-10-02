@@ -1,6 +1,7 @@
 package com.cemi.portalreloaded.item;
 
 import com.cemi.portalreloaded.PortalReloaded;
+import com.cemi.portalreloaded.client.PortalTabs;
 
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
@@ -19,6 +20,7 @@ public class PortalArmor extends ItemArmor implements ISpecialArmor {
 		super(material, 0, slot);
 		setRegistryName(name);
 		setUnlocalizedName(name);
+		setCreativeTab(PortalTabs.PORTAL_TOOLS_AND_ARMOR);
 		this.name = name;
 	}
 

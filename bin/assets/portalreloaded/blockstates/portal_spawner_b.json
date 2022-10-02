@@ -1,0 +1,16 @@
+{
+    "forge_marker": 1,
+    "variants": {
+        "facing=down":  { "model": "portalreloaded:portal_spawner", "x": 90 },
+        "facing=up":    { "model": "portalreloaded:portal_spawner", "x": 270 },
+        "facing=north": { "model": "portalreloaded:portal_spawner", "y": 0 },
+        "facing=east":  { "model": "portalreloaded:portal_spawner", "y": 90 },
+        "facing=south": { "model": "portalreloaded:portal_spawner", "y": 180 },
+        "facing=west":  { "model": "portalreloaded:portal_spawner", "y": 270 },
+        "inventory": {
+            "model": "portalreloaded:portal_spawner",
+            "transform": "forge:default-block",
+            "y" : 180
+        }
+    }
+}

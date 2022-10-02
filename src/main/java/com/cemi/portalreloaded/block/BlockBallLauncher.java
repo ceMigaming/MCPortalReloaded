@@ -59,6 +59,7 @@ public class BlockBallLauncher extends TileEntityBlock<TileEntityBallLauncher> {
 		this.setDefaultDirection(worldIn, pos, state);
 	}
 
+	@Override
 	public void neighborChanged(IBlockState state, World worldIn, BlockPos pos, Block blockIn, BlockPos fromPos) {
 		if (!worldIn.isRemote) {
 			boolean flag = worldIn.isBlockPowered(pos) || worldIn.isBlockPowered(pos.up());

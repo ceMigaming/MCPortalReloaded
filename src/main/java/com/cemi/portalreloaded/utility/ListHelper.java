@@ -3,6 +3,8 @@ package com.cemi.portalreloaded.utility;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.cemi.portalreloaded.PortalReloaded;
+
 import net.minecraft.util.math.BlockPos;
 
 public class ListHelper {
@@ -29,12 +31,13 @@ public class ListHelper {
 	}
 
 	public static void print(List<BlockPos> blocks) {
-		System.out.println();
-		System.out.println("BlockPos list contains: ");
-		System.out.println("-----------------------------------------");
+		PortalReloaded.log("");
+		PortalReloaded.log("BlockPos list contains: ");
+		PortalReloaded.log("");
+		PortalReloaded.log("-----------------------------------------");
 		for (BlockPos blockPos : blocks) {
-			System.out.println(blockPos);
+			PortalReloaded.log(blockPos);
 		}
-		System.out.println("-----------------------------------------");
+		PortalReloaded.log("-----------------------------------------");
 	}
 }

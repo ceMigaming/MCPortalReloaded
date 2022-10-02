@@ -3,6 +3,7 @@ package com.cemi.portalreloaded.entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.DamageSource;
 import net.minecraft.util.EnumHandSide;
 import net.minecraft.world.World;
 
@@ -18,6 +19,15 @@ public class EntityCubeBase extends EntityLivingBase {
 		return null;
 	}
 
+	@Override
+	public boolean isEntityInvulnerable(DamageSource source) {
+		if(source == DamageSource.LAVA)
+			return false;
+		return true;
+	}
+	
+	
+	
 	@Override
 	public ItemStack getItemStackFromSlot(EntityEquipmentSlot slotIn) {
 		// TODO Auto-generated method stub

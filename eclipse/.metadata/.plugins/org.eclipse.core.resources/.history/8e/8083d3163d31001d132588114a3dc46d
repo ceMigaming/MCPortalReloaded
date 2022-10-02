@@ -1,0 +1,59 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "open": "true"
+      },
+      "apply": {
+        "model": "portalreloaded:door_open"
+      }
+    },
+    {
+      "when": {
+        "open": "false"
+      },
+      "apply": {
+        "model": "portalreloaded:door_closed"
+      }
+    }
+  ],
+  "variants": {
+    "inventory": {
+      "model": "portalreloaded:door_closed",
+      "transform": "forge:default-block",
+      "y": 180
+    }
+  }
+}

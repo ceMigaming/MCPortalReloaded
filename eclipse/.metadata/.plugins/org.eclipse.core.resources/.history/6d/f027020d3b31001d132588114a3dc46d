@@ -1,0 +1,24 @@
+{
+  "multipart" : [ {
+    "variants" : {
+        "facing=north": { "model": "portalreloaded:door_closed", "y": 0 },
+        "facing=east":  { "model": "portalreloaded:door_closed", "y": 90 },
+        "facing=south": { "model": "portalreloaded:door_closed", "y": 180 },
+        "facing=west":  { "model": "portalreloaded:door_closed", "y": 270 },
+    }
+  }, {
+    "when" : {
+      "open" : "false"
+    },
+    "apply" : {
+      "model" : "portalreloaded:door_closed"
+    }
+  } ],
+  "variants" : {
+    "inventory" : {
+      "model" : "portalreloaded:door_closed",
+      "transform" : "forge:default-block",
+      "y" : 180
+    }
+  }
+}

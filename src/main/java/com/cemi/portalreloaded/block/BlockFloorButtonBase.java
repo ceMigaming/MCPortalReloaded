@@ -146,9 +146,9 @@ public abstract class BlockFloorButtonBase extends PortalBlock {
 		if (oldRedstoneStrength != i) {
 			state = this.setRedstoneStrength(state, i);
 			worldIn.setBlockState(pos, state, 2);
-			worldIn.setBlockState(pos.west(), worldIn.getBlockState(pos.west()).withProperty(BlockDummyFloorButton.POWERED, flag1));
-			worldIn.setBlockState(pos.north(), worldIn.getBlockState(pos.north()).withProperty(BlockDummyFloorButton.POWERED, flag1));
-			worldIn.setBlockState(pos.west().north(), worldIn.getBlockState(pos.west().north()).withProperty(BlockDummyFloorButton.POWERED, flag1));
+			worldIn.setBlockState(pos.west(), worldIn.getBlockState(pos.west()).withProperty(BlockFloorButtonDummy.POWERED, flag1));
+			worldIn.setBlockState(pos.north(), worldIn.getBlockState(pos.north()).withProperty(BlockFloorButtonDummy.POWERED, flag1));
+			worldIn.setBlockState(pos.west().north(), worldIn.getBlockState(pos.west().north()).withProperty(BlockFloorButtonDummy.POWERED, flag1));
 			this.updateNeighbors(worldIn, pos);
 			worldIn.markBlockRangeForRenderUpdate(pos, pos);
 		}
