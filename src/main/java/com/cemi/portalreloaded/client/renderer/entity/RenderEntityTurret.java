@@ -1,16 +1,22 @@
 package com.cemi.portalreloaded.client.renderer.entity;
 
+import org.lwjgl.util.Color;
+
 import com.cemi.portalreloaded.PortalReloaded;
 import com.cemi.portalreloaded.client.renderer.entity.model.TurretModel;
 import com.cemi.portalreloaded.entity.EntityTurret;
 
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.renderer.GlStateManager;
+import net.minecraft.client.renderer.RenderGlobal;
 import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.client.renderer.entity.RenderEntity;
 import net.minecraft.client.renderer.entity.RenderLivingBase;
 import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.math.AxisAlignedBB;
+import net.minecraft.util.math.Vec3d;
 
 public class RenderEntityTurret extends RenderLivingBase<EntityTurret> {
 
@@ -42,6 +48,30 @@ public class RenderEntityTurret extends RenderLivingBase<EntityTurret> {
 //		GlStateManager.disableRescaleNormal();
 //		GlStateManager.enableLighting();
 //		GlStateManager.popMatrix();
+		if (Minecraft.getMinecraft().gameSettings.showDebugInfo) {
+			float scale = 1.f;
+			Vec3d forwardVec = com.cemi.portalreloaded.utility.Math
+					.getVectorForRotation(entity.rotationPitch, entity.getRotationYawHead()).normalize().scale(scale);
+			entity.rotationYawHead = entity.prevRotationYaw;
+			// get the entity's position
+			double ex = entity.posX;
+			double ey = entity.posY + entity.getEyeHeight();
+			double ez = entity.posZ;
+
+			// calculate the end point of the ray
+			double endX = ex + forwardVec.x;
+			double endY = ey + forwardVec.y;
+			double endZ = ez + forwardVec.z;
+
+			// draw the ray using your preferred rendering method
+			// for example, you can use the RenderGlobal.drawSelectionBox method
+			// RenderGlobal.drawSelectionBox(new AxisAlignedBB(ex, ey, ez, endX, endY,
+			// endZ), 1.0f, 0.0f, 0.0f, 1.0f);
+			com.cemi.portalreloaded.client.renderer.utility.Render.renderLine(new Vec3d(ex, ey, ez),
+					new Vec3d(endX, endY, endZ), new Color(255, 255, 0), partialTicks);
+			com.cemi.portalreloaded.client.renderer.utility.Render.renderCone(16, scale, entity.rotationYawHead,
+					new Vec3d(ex, ey, ez), new Vec3d(endX, endY, endZ), new Color(255, 255, 0), partialTicks);
+		}
 		super.doRender(entity, x, y, z, entityYaw, partialTicks);
 	}
 

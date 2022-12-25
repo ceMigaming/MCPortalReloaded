@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
-    <entry loc="C:\Program Files\AdoptOpenJDK\jdk-8.0.262.10-hotspot" stamp="1595778014927"/>
-    <entry loc="C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot" stamp="1649960954353"/>
-    <entry loc="C:\Program Files\Java\jdk-14.0.2" stamp="1594251518000"/>
-    <entry loc="C:\Program Files\Java\jre1.8.0_281\bin" stamp="1616153437884"/>
-    <entry loc="C:\Users\macie\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208" stamp="1652092986437"/>
-    <entry loc="C:\Program Files\Java\jre1.8.0_281" stamp="1616153471535"/>
+    <entry loc="C:\Users\macie\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657" stamp="1641926268357"/>
+    <entry loc="C:\Users\macie\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657\jre" stamp="1641926268352"/>
+    <entry loc="C:\Program Files\BellSoft\LibericaJDK-8-Full" stamp="1662113124002"/>
 </dirs>

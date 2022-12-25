@@ -20,6 +20,7 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.model.obj.OBJLoader;
 import net.minecraftforge.fml.client.registry.IRenderFactory;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 public class ClientProxy extends CommonProxy {
 
@@ -49,17 +50,14 @@ public class ClientProxy extends CommonProxy {
 			}
 		});
 	}
-	
+
 	@Override
 	public void registerBlockColors(net.minecraftforge.client.event.ColorHandlerEvent.Block event) {
-		event.getBlockColors().registerBlockColorHandler(new IBlockColor()
-        {
-            public int colorMultiplier(IBlockState state, @Nullable IBlockAccess worldIn, @Nullable BlockPos pos, int tintIndex)
-            {
-                return BlockIndicatorLight.colorMultiplier(state.getValue(BlockIndicatorLight.POWER));
-            }
-        },
-        PortalBlocks.indicatorLight);
+		event.getBlockColors().registerBlockColorHandler(new IBlockColor() {
+			public int colorMultiplier(IBlockState state, @Nullable IBlockAccess worldIn, @Nullable BlockPos pos,
+					int tintIndex) {
+				return BlockIndicatorLight.colorMultiplier(state.getValue(BlockIndicatorLight.POWER));
+			}
+		}, PortalBlocks.indicatorLight);
 	}
-	
 }

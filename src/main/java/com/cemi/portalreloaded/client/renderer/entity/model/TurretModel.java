@@ -282,6 +282,8 @@ public class TurretModel extends ModelBase {
 	@Override
 	public void setRotationAngles(float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw,
 			float headPitch, float scaleFactor, Entity entityIn) {
+		if(!(entityIn instanceof EntityTurret))
+			return;
 		EntityTurret turret = (EntityTurret) entityIn;
 		if (turret.shouldOpen && !turret.isOpen) {
 			if (openingTime >= 1)

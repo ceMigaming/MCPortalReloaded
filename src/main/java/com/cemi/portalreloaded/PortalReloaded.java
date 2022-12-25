@@ -1,9 +1,12 @@
 package com.cemi.portalreloaded;
 
+import java.util.List;
+
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.Logger;
 
 import com.cemi.portalreloaded.block.PortalBlocks;
+import com.cemi.portalreloaded.block.PortalFluids;
 import com.cemi.portalreloaded.client.handlers.ClientEventHandler;
 import com.cemi.portalreloaded.command.PortalCommands;
 import com.cemi.portalreloaded.entity.PortalEntities;
@@ -17,13 +20,22 @@ import me.ichun.mods.ichunutil.client.keybind.KeyEvent;
 import me.ichun.mods.ichunutil.common.core.network.PacketChannel;
 import me.ichun.mods.ichunutil.common.grab.GrabHandler;
 import net.minecraft.block.Block;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.entity.EntityPlayerSP;
+import net.minecraft.client.renderer.entity.RenderManager;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.item.EntityArmorStand;
+import net.minecraft.entity.monster.EntityCreeper;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
+import net.minecraft.world.World;
 import net.minecraftforge.client.event.ColorHandlerEvent;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -42,10 +54,14 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class PortalReloaded {
 	public static final String MODID = "portalreloaded";
 	public static final String NAME = "Portal Reloaded";
-	public static final String VERSION = "0.1";
+	public static final String VERSION = "0.5";
 	public static PacketChannel channel;
 
 	private static Logger logger;
+
+	static {
+		FluidRegistry.enableUniversalBucket();
+	}
 
 	public static final ItemArmor.ArmorMaterial LONGFALL_BOOTS_MATERIAL = EnumHelper.addArmorMaterial("LONGFALLBOOTS",
 			MODID + ":longfallboots", 15, new int[] { 0, 0, 0, 0 }, 0, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F);
@@ -58,6 +74,8 @@ public class PortalReloaded {
 		logger = event.getModLog();
 		channel = new PacketChannel("PortalReloaded", new Class[] { MessageKeyEvent.class, MessageGrabEvent.class });
 		PacketHandler.register();
+		PortalFluids.register();
+		PortalBlocks.initializeFluidBlocks();
 	}
 
 	@EventHandler
@@ -92,6 +110,7 @@ public class PortalReloaded {
 		public static void registerModels(ModelRegistryEvent event) {
 			PortalItems.registerModels();
 			PortalBlocks.registerModels();
+			PortalBlocks.neurotoxin.setupRender();
 		}
 
 		@SubscribeEvent
@@ -114,6 +133,11 @@ public class PortalReloaded {
 		@SideOnly(Side.CLIENT)
 		public static void onKeyEvent(KeyEvent event) {
 			ClientEventHandler.onKeyEvent(event);
+		}
+
+		@SubscribeEvent
+		@SideOnly(Side.CLIENT)
+		public static void clientTick(TickEvent event) {
 		}
 	}
 

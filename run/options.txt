@@ -5,13 +5,13 @@ fov:1.0
 gamma:1.0
 saturation:0.0
 renderDistance:10
-guiScale:3
+guiScale:0
 particles:0
 bobView:false
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:2
+difficulty:0
 fancyGraphics:false
 ao:0
 renderClouds:false
@@ -113,7 +113,7 @@ key_mod.chiselsandbits.other.offgrid:0
 key_mod.chiselsandbits.other.undo:0
 key_mod.chiselsandbits.other.redo:0
 key_mod.chiselsandbits.other.add_to_clipboard:0
-soundCategory_master:0.10927153
+soundCategory_master:0.0
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

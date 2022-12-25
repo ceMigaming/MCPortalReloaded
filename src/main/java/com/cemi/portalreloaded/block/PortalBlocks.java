@@ -16,6 +16,7 @@ import net.minecraft.item.Item;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraftforge.client.event.ColorHandlerEvent;
+import net.minecraftforge.fluids.BlockFluidClassic;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.registries.IForgeRegistry;
 
@@ -71,8 +72,8 @@ public class PortalBlocks {
 	public static BlockBigTile metalBigTile = new BlockBigTile(Material.ROCK, "metal_big_tile", upperLeftMetalBigTile,
 			upperRightMetalBigTile, lowerLeftMetalBigTile, lowerRightMetalBigTile);
 
-	public static PortalFlowingLiquid flowingNeurotoxin = new PortalFlowingLiquid(Material.WATER, "flowing_neurotoxin");
-	public static PortalStaticLiquid neurotoxin = new PortalStaticLiquid(Material.WATER, "neurotoxin");
+	// LIQUIDS
+	public static BlockPortalFluid neurotoxin;
 
 	public static Block[] blocks = {
 			// CONCRETE TILES
@@ -86,10 +87,15 @@ public class PortalBlocks {
 			glassBlock, seemedGlassBlock, glassPane, seemedGlassPane,
 			// ELECTRONICS
 			fizzlerField, ballLauncher, ballTarget, indicatorLight, floorButton, dummyFloorButton, door, dummyDoor,
-			portalSpawnerA, portalSpawnerB, flowingNeurotoxin, neurotoxin };
+			portalSpawnerA, portalSpawnerB };
 
+	public static void initializeFluidBlocks() {
+		neurotoxin = new BlockPortalFluid("neurotoxin", PortalFluids.neurotoxinFluid, Material.WATER);		
+	}
+	
 	public static void register(IForgeRegistry<Block> registry) {
 		registry.registerAll(blocks);
+		registry.register(neurotoxin);
 		GameRegistry.registerTileEntity(ballLauncher.getTileEntityClass(), ballLauncher.getRegistryName().toString());
 		GameRegistry.registerTileEntity(ballTarget.getTileEntityClass(), ballTarget.getRegistryName().toString());
 		GameRegistry.registerTileEntity(indicatorLight.getTileEntityClass(),
@@ -102,10 +108,6 @@ public class PortalBlocks {
 		for (Block block : blocks) {
 			if (block instanceof PortalBlock)
 				registry.register(((PortalBlock) block).createItemBlock());
-			if (block instanceof PortalFlowingLiquid)
-				registry.register(((PortalFlowingLiquid) block).createItemBlock());
-			if (block instanceof PortalStaticLiquid)
-				registry.register(((PortalStaticLiquid) block).createItemBlock());
 		}
 	}
 
@@ -113,10 +115,6 @@ public class PortalBlocks {
 		for (Block block : blocks) {
 			if (block instanceof PortalBlock)
 				((PortalBlock) block).registerItemModel(Item.getItemFromBlock(block));
-			if (block instanceof PortalFlowingLiquid)
-				((PortalFlowingLiquid) block).registerItemModel(Item.getItemFromBlock(block));
-			if (block instanceof PortalStaticLiquid)
-				((PortalStaticLiquid) block).registerItemModel(Item.getItemFromBlock(block));
 		}
 	}
 

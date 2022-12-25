@@ -37,15 +37,20 @@ public class PortalEntities {
 		PortalEntities.registry = registry;
 
 		register(EntityHEP.class, "hep", getRenderer("RenderEntityHEP"));
+		register(EntityRocket.class, "rocket", getRenderer("RenderEntityRocket"));
 		register(EntityWheatley.class, "wheatley", getRenderer("RenderEntityWheatley"));
 		register(EntityStorageCube.class, "storage_cube", getRenderer("RenderEntityCube"));
 		register(EntityPivotCube.class, "pivot_cube", getRenderer("RenderEntityPivotCube"));
 		register(EntityTurret.class, "turret", getRenderer("RenderEntityTurret"));
+		register(EntityRocketTurret.class, "rocket_turret", getRenderer("RenderEntityRocketTurret"));
 		register(EntityCamera.class, "camera", getRenderer("RenderEntityCamera"));
 
 		addSpawnInfo(CUBE_PLACERS, "storage_cube");
 		addSpawnInfo(CUBE_PLACERS, "pivot_cube");
 
+		addSpawnInfo(ROBOTS_PLACERS, "turret");
+		addSpawnInfo(ROBOTS_PLACERS, "rocket_turret");
+		addSpawnInfo(ROBOTS_PLACERS, "camera");
 	}
 
 	private static void register(Class entityClass, String name, @Nullable Class renderClass) {

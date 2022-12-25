@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import com.cemi.portalreloaded.utility.Math;
+
 import me.ichun.mods.ichunutil.common.iChunUtil;
 import me.ichun.mods.ichunutil.common.grab.GrabHandler;
 import net.minecraft.entity.Entity;
@@ -40,16 +42,18 @@ public class EntityTurret extends EntityLivingBase {
 		for (int i = ents.size() - 1; i >= 0; --i) {
 			GrabHandler handler = (GrabHandler) ents.get(i);
 			if (handler.grabbed == this) {
-				this.rotationYaw = handler.grabber.prevRotationYaw;
+				if (!world.isRemote)
+					this.setRotation(handler.grabber.prevRotationYaw, this.rotationPitch);
 			}
 		}
 
+		this.rotationYawHead = this.rotationYaw;
+		
 		List<EntityPlayer> players = world.getEntitiesWithinAABB(EntityPlayer.class, getEntityBoundingBox().grow(15.d));
 		for (EntityPlayer player : players) {
-			if (player.getPositionVector().subtract(getPositionVector()).normalize().dotProduct(getLookVec()) <= .5d) {
+			if (!Math.isEntityLookingAtPlayer(this, player, 90, 0.f)) {
 				shouldOpen = false;
-			}
-			if (player.getPositionVector().subtract(getPositionVector()).normalize().dotProduct(getLookVec()) > .5d) {
+			} else {
 				shouldOpen = true;
 				shootingTimer = (shootingTimer + 1) % 10;
 				if (shootingTimer == 0) {
