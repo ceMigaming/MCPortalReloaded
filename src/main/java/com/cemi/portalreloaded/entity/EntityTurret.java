@@ -8,12 +8,14 @@ import com.cemi.portalreloaded.utility.Math;
 
 import me.ichun.mods.ichunutil.common.iChunUtil;
 import me.ichun.mods.ichunutil.common.grab.GrabHandler;
+import net.minecraft.client.Minecraft;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.EnumHandSide;
 import net.minecraft.util.EnumParticleTypes;
@@ -29,6 +31,7 @@ public class EntityTurret extends EntityLivingBase {
 	public float openingSpeed = 0.1f;
 	int shootingTimer = 0;
 	float openingTime = 0;
+	public double targetingDistance = 15.d;
 
 	public EntityTurret(World worldIn) {
 		super(worldIn);
@@ -46,10 +49,10 @@ public class EntityTurret extends EntityLivingBase {
 					this.setRotation(handler.grabber.prevRotationYaw, this.rotationPitch);
 			}
 		}
+		this.rotationYawHead = this.prevRotationYaw;
 
-		this.rotationYawHead = this.rotationYaw;
-		
-		List<EntityPlayer> players = world.getEntitiesWithinAABB(EntityPlayer.class, getEntityBoundingBox().grow(15.d));
+		List<EntityPlayer> players = world.getEntitiesWithinAABB(EntityPlayer.class,
+				getEntityBoundingBox().grow(targetingDistance));
 		for (EntityPlayer player : players) {
 			if (!Math.isEntityLookingAtPlayer(this, player, 90, 0.f)) {
 				shouldOpen = false;
@@ -104,5 +107,17 @@ public class EntityTurret extends EntityLivingBase {
 	@Override
 	public void onCollideWithPlayer(EntityPlayer entityIn) {
 		this.attackEntityFrom(DamageSource.causePlayerDamage(entityIn), Float.MAX_VALUE);
+	}
+
+	@Override
+	public void writeEntityToNBT(NBTTagCompound compound) {
+		compound.setFloat("turretRotation", this.rotationYawHead);
+		super.writeEntityToNBT(compound);
+	}
+
+	@Override
+	public void readEntityFromNBT(NBTTagCompound compound) {
+		this.rotationYawHead = compound.getFloat("turretRotation");
+		super.readEntityFromNBT(compound);
 	}
 }

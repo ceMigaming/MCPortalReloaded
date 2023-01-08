@@ -1,7 +1,0 @@
-package com.cemi.portalreloaded.client.handlers;
-
-public class ClientEventHandler {
-	public static void onKeyEvent(KeyEvent event) {
-		
-	}
-}

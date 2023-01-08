@@ -5,6 +5,7 @@ import javax.annotation.Nullable;
 import com.cemi.portalreloaded.PortalReloaded;
 import com.cemi.portalreloaded.block.BlockIndicatorLight;
 import com.cemi.portalreloaded.block.PortalBlocks;
+import com.cemi.portalreloaded.sounds.PortalSounds;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
@@ -21,6 +22,7 @@ import net.minecraftforge.client.model.obj.OBJLoader;
 import net.minecraftforge.fml.client.registry.IRenderFactory;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.ForgeRegistries;
 
 public class ClientProxy extends CommonProxy {
 

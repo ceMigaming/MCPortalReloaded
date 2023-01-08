@@ -1,24 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
-    <libraryInfo home="C:\Users\macie\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657" version="17.0.1"/>
-    <libraryInfo home="C:\Users\macie\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657\jre" version="17.0.1"/>
-    <libraryInfo home="C:\Program Files\BellSoft\LibericaJDK-8-Full" version="1.8.0_345">
+    <libraryInfo home="C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot" version="1.8.0_322">
         <bootpath>
-            <entry path="C:\Program Files\BellSoft\LibericaJDK-8-Full\jre\lib\resources.jar"/>
-            <entry path="C:\Program Files\BellSoft\LibericaJDK-8-Full\jre\lib\rt.jar"/>
-            <entry path="C:\Program Files\BellSoft\LibericaJDK-8-Full\jre\lib\sunrsasign.jar"/>
-            <entry path="C:\Program Files\BellSoft\LibericaJDK-8-Full\jre\lib\jsse.jar"/>
-            <entry path="C:\Program Files\BellSoft\LibericaJDK-8-Full\jre\lib\jce.jar"/>
-            <entry path="C:\Program Files\BellSoft\LibericaJDK-8-Full\jre\lib\charsets.jar"/>
-            <entry path="C:\Program Files\BellSoft\LibericaJDK-8-Full\jre\lib\jfr.jar"/>
-            <entry path="C:\Program Files\BellSoft\LibericaJDK-8-Full\jre\classes"/>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre\lib\resources.jar"/>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre\lib\rt.jar"/>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre\lib\sunrsasign.jar"/>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre\lib\jsse.jar"/>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre\lib\jce.jar"/>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre\lib\charsets.jar"/>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre\lib\jfr.jar"/>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre\classes"/>
         </bootpath>
         <extensionDirs>
-            <entry path="C:\Program Files\BellSoft\LibericaJDK-8-Full\jre\lib\ext"/>
-            <entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre\lib\ext"/>
+            <entry path="C:\Windows\Sun\Java\lib\ext"/>
         </extensionDirs>
         <endorsedDirs>
-            <entry path="C:\Program Files\BellSoft\LibericaJDK-8-Full\jre\lib\endorsed"/>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre\lib\endorsed"/>
+        </endorsedDirs>
+    </libraryInfo>
+    <libraryInfo home="C:\Users\macie\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208\jre" version="17.0.2"/>
+    <libraryInfo home="C:\Users\macie\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208" version="17.0.2"/>
+    <libraryInfo home="C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\bin" version="1.8.0_322">
+        <bootpath>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre\lib\resources.jar"/>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre\lib\rt.jar"/>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre\lib\sunrsasign.jar"/>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre\lib\jsse.jar"/>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre\lib\jce.jar"/>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre\lib\charsets.jar"/>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre\lib\jfr.jar"/>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre\classes"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre\lib\ext"/>
+            <entry path="C:\Windows\Sun\Java\lib\ext"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre\lib\endorsed"/>
         </endorsedDirs>
     </libraryInfo>
 </libraryInfos>

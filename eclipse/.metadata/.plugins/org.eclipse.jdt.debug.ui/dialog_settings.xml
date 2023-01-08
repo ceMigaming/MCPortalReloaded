@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth0" value="118"/>
-	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth1" value="528"/>
-	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth2" value="68"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth0" value="74"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth1" value="613"/>
+	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth2" value="82"/>
 	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.sortColumn" value="1"/>
-	<section name="expressionHistory">
-	</section>
-	<section name="OpenFromClipboardAction_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="449"/>
-		<item key="DIALOG_Y_ORIGIN" value="63"/>
-		<item key="DIALOG_WIDTH" value="394"/>
-		<item key="DIALOG_HEIGHT" value="423"/>
-		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-21|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
-	</section>
 </section>

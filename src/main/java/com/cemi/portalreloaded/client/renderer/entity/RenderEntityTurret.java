@@ -49,10 +49,9 @@ public class RenderEntityTurret extends RenderLivingBase<EntityTurret> {
 //		GlStateManager.enableLighting();
 //		GlStateManager.popMatrix();
 		if (Minecraft.getMinecraft().gameSettings.showDebugInfo) {
-			float scale = 1.f;
+			float scale = (float) entity.targetingDistance * 0.7071067f;
 			Vec3d forwardVec = com.cemi.portalreloaded.utility.Math
 					.getVectorForRotation(entity.rotationPitch, entity.getRotationYawHead()).normalize().scale(scale);
-			entity.rotationYawHead = entity.prevRotationYaw;
 			// get the entity's position
 			double ex = entity.posX;
 			double ey = entity.posY + entity.getEyeHeight();

@@ -44,13 +44,15 @@ public class PortalEntities {
 		register(EntityTurret.class, "turret", getRenderer("RenderEntityTurret"));
 		register(EntityRocketTurret.class, "rocket_turret", getRenderer("RenderEntityRocketTurret"));
 		register(EntityCamera.class, "camera", getRenderer("RenderEntityCamera"));
-
+		register(EntityRadio.class, "radio", getRenderer("RenderEntityRadio"));
+		
 		addSpawnInfo(CUBE_PLACERS, "storage_cube");
 		addSpawnInfo(CUBE_PLACERS, "pivot_cube");
 
 		addSpawnInfo(ROBOTS_PLACERS, "turret");
 		addSpawnInfo(ROBOTS_PLACERS, "rocket_turret");
 		addSpawnInfo(ROBOTS_PLACERS, "camera");
+		addSpawnInfo(ROBOTS_PLACERS, "radio");
 	}
 
 	private static void register(Class entityClass, String name, @Nullable Class renderClass) {

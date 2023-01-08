@@ -1,7 +1,0 @@
-package com.cemi.portalreloaded.tileentity;
-
-import net.minecraft.tileentity.TileEntity;
-
-public class TileEntityPortalSpawner extends TileEntity {
-
-}

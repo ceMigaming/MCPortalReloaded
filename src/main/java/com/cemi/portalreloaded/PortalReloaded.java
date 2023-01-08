@@ -15,6 +15,7 @@ import com.cemi.portalreloaded.item.PortalItems;
 import com.cemi.portalreloaded.packets.MessageGrabEvent;
 import com.cemi.portalreloaded.packets.MessageKeyEvent;
 import com.cemi.portalreloaded.proxy.CommonProxy;
+import com.cemi.portalreloaded.sounds.PortalSounds;
 
 import me.ichun.mods.ichunutil.client.keybind.KeyEvent;
 import me.ichun.mods.ichunutil.common.core.network.PacketChannel;
@@ -30,6 +31,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
+import net.minecraft.util.SoundEvent;
 import net.minecraft.world.World;
 import net.minecraftforge.client.event.ColorHandlerEvent;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -128,6 +130,11 @@ public class PortalReloaded {
 		public static void registerBlockColors(final ColorHandlerEvent.Block event) {
 			PortalBlocks.registerBlockColors(event);
 		}
+		
+		@SubscribeEvent(receiveCanceled = true)
+		public static void registerSoundEvents(RegistryEvent.Register<SoundEvent> event) {
+			PortalSounds.register(event);
+		}      
 
 		@SubscribeEvent
 		@SideOnly(Side.CLIENT)
